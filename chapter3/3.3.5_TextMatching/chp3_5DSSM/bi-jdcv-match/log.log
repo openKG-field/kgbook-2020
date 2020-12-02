@@ -1,0 +1,5 @@
+2020-04-07 11:36:50,011 log_test.py[line:16] INFO log conf test
+2020-04-07 11:39:23,456 log_test.py[line:16] INFO log conf info
+2020-04-07 11:39:23,456 log_test.py[line:17] DEBUG log conf debug
+2020-04-07 11:49:15,833 log_test.py[line:15] INFO log conf info
+2020-04-07 11:49:15,833 log_test.py[line:16] DEBUG log conf debug
