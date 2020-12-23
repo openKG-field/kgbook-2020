@@ -87,8 +87,8 @@ def evalue(y_pred,x_test,y_test,label):
 def main():
     params = config.params
 
-    train_data_path = './../train_data.txt'
-    test_data_path = './../test_data.txt'
+    train_data_path = '.\\..\\..\\..\\data\\train_data.txt'
+    test_data_path = '.\\..\\..\\..\\data\\test_data.txt'
     target = 'target'
     ignore_list = ['applicantFirst']
     sep = ','

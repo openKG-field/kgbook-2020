@@ -12,7 +12,10 @@ import  pandas as pd
 import numpy as np
 #model
 from sklearn.tree import DecisionTreeClassifier
-
+from sklearn import svm
+from sklearn.linear_model import LogisticRegression,Perceptron,LinearRegression
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.ensemble import RandomForestClassifier
 #evaluation
 from sklearn.metrics import f1_score,accuracy_score,recall_score,log_loss,roc_curve,auc
 
@@ -58,17 +61,30 @@ def evalue(y_pred,x_test,y_test,label):
 
 def main():
     #get data for model
-    path = '.\\..\\..\\..\\data\\model_data.txt'
+    path = r'.\\..\\..\\..\\data\\model_data.txt'
     x_train,x_test,y_train,y_test = load_data(path)
 
 
-    #DecisionTree
 
-    df = DecisionTreeClassifier()
-    df.fit(x_train,y_train)
-    y_pred = df.predict(x_test)
-    evalue(y_pred,x_test,y_test,'DT_model')
+    #SVM
+    SVM = svm.SVC()
+    SVM.fit(x_train,y_train)
+    y_pred = SVM.predict(x_test)
+    evalue(y_pred,x_test,y_test,'SVM_model')
 
+    #LR
+    lr = LogisticRegression()
+    lr.fit(x_train,y_train)
+    y_pred = lr.predict(x_test)
+    evalue(y_pred,x_test,y_test,'LR_model')
+    print(y_pred)
+    #lineRe
+    lineR = LinearRegression()
+    lineR.fit(x_train,y_train)
+    y_pred = lineR.predict(x_test)
+
+    y_pred = [ 1 if i>0.5 else 0 for i in y_pred]
+    evalue(y_pred,x_test,y_test,'line')
 
 
 

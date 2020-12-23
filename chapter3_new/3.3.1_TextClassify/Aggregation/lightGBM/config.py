@@ -12,8 +12,9 @@ params = {
     "tree_learner": "serial",
     "metric": ['auc','binary_logloss'],
     "training_metric": True,
-    "train_data": './../train_data.txt',
-    "test_data":  './../test_data.txt',
+    #'.\\..\\..\\..\\data\\model_data.txt'
+    "train_data": './../../../data/train_data.txt',
+    "test_data":  './../../../data/test_data.txt',
     "header": "true",
     "label_column": "name:target",
     #"weight_column": "name:weight",

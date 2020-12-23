@@ -59,7 +59,7 @@ def evalue(y_pred,x_test,y_test,label):
 
 def main():
     #get data for model
-    path = 'C:\\Users\\zhaohongyu\\PycharmProjects\\books_method\\wn\\chapter3\\TextClassify\\data\\model_data.txt'
+    path = '.\\..\\..\\..\\data\\model_data.txt'
     x_train,x_test,y_train,y_test = load_data(path)
 
 
