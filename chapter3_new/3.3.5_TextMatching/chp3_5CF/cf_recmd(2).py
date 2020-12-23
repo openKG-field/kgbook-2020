@@ -15,13 +15,13 @@ class cf_recmd():
 
     #初始化所有备选协同召回矩阵
     def __init__(self):
-        self.field_similar = json.load(open('fieldWords_similar.json', 'r', encoding='utf8'))
+        self.field_similar = json.load(open('fieldWords_similar.json', 'r'))
 
-        self.func_similar = json.load(open('funcWords_similar.json', 'r', encoding='utf8'))
+        self.func_similar = json.load(open('funcWords_similar.json', 'r'))
 
-        self.tech_similar = json.load(open('techWords_similar.json', 'r', encoding='utf8'))
+        self.tech_similar = json.load(open('techWords_similar.json', 'r'))
 
-        self.good_similar = json.load(open('goodsList_similar.json', 'r', encoding='utf8'))
+        self.good_similar = json.load(open('goodsList_similar.json', 'r'))
 
     #矩阵加和时提供不同的权重
     def weight_modify(self,weights):
@@ -80,8 +80,8 @@ class cf_recmd():
 
 if __name__ == '__main__':
     cf = cf_recmd()
-    pubid = 'CN1003265B'
-    recmd_list = cf.recmd_top('CN1003265B',20)
+    pubid = 'CN205752064U'
+    recmd_list = cf.recmd_top(pubid,20)
     print(recmd_list)
 
 

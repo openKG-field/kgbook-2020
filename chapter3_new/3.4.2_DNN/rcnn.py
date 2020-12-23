@@ -31,8 +31,8 @@ class RCNN:
         return lstm
 
     def model_build(self):
-        inputQ = Input(shape=(self.input_dim,), dtype='int32')
-        inputC = Input(shape=(self.input_dim,), dtype='int32')
+        inputQ = Input(shape=(self.input_dim,), dtype='int32',name='Q')
+        inputC = Input(shape=(self.input_dim,), dtype='int32',name='C')
 
         embededQ = self.token_embedding(inputQ)
         embededC = self.token_embedding(inputC)

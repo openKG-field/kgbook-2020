@@ -23,7 +23,7 @@ def data_process(path):
     '''
 
     doc = []
-    with open(path,'r',encoding='utf8') as f :
+    with open(path,'r') as f :
         for line in f :
             line = line.strip()
             tem = []
@@ -143,7 +143,7 @@ def sentence_textRank(path,threshold,in_thresh,iter,d):
     '''
     sentences = {}
     sen_list = []
-    with open(path,'r',encoding='utf8') as f:
+    with open(path,'r') as f:
         for line in f :
             line = line.strip().split('。')
             for s in line :
@@ -206,8 +206,8 @@ def sentence_textRank(path,threshold,in_thresh,iter,d):
     for i in pw :
         if i == 1 :
             count += 1
-    print(pw)
-    print('pw = ',count)
+    #print(pw)
+    print 'pw = ',count
     for i in range(len(sen_list)) :
         weight_dict[sen_list[i]] = pw[i]
 
@@ -218,7 +218,7 @@ weight_dict = sentence_textRank('Abstract.txt',0.5,0.7,10,0.85)
 
 for k,v in sorted(weight_dict.items(),key=lambda k:k[1],reverse=True):
     if v == 1 :continue
-    print(k,v)
+    print k,v 
 
 
 
@@ -229,7 +229,9 @@ def main():
     #通过分词等方法获得每一个词节点 进出边的权重和进出边图集合
     words,graph,in_graph,out_graph = data_process(path)
 
-    print(graph)
+    print('value = == ',graph)
+    
+    #return 0 
     #textRank(words,graph,in_graph,out_graph,iter,d):
     re = textRank(words=words,graph=graph,in_graph=in_graph,out_graph=out_graph,iter=10,d=0.85)
 

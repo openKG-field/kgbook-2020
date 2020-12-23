@@ -62,8 +62,8 @@ class TextCNN:
         return Dense(2, activation='relu')(Concatenate()([m1, m2]))
 
     def model_build(self):
-        inputQ = Input(shape=(self.input_dim,), dtype='int32')
-        inputC = Input(shape=(self.input_dim,), dtype='int32')
+        inputQ = Input(shape=(self.input_dim,), dtype='int32',name='Q')
+        inputC = Input(shape=(self.input_dim,), dtype='int32',name='C')
         model_inputs = [inputQ, inputC]
 
         embedQ = self.token_embedding(inputQ)

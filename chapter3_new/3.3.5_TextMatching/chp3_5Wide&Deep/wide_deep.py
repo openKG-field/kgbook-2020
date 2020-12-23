@@ -102,8 +102,8 @@ def load_data(train_path,test_path):
     #wd.build({'lr':x_train,'dnn':x_train},y_train,[x_test,x_test],y_test,batch_size=50,epochs=100)
 
 
-train_path = '.\\..\\data\\train_data.txt'
-test_path =  '.\\..\\data\\test_data.txt'
+train_path = '.\\..\\..\\data\\train_data.txt'
+test_path =  '.\\..\\..\\data\\test_data.txt'
 
 load_data(train_path,test_path)
 

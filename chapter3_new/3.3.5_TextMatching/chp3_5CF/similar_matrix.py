@@ -121,24 +121,33 @@ def similar_matrix_json(data, key):
         similar_dict[pubid] = tem_dict
     return similar_dict
 
+import pandas as pd 
 
 def data_process_dict(path):
-    head = 'pubid   fieldsName      applicantFirst  fieldWords      techWords       funcWords       tfidf_v1        goodsList       warnlevelRe     indLen  claimsIndCount  feature mainIpc3'.split(
-        '\t')
-
+    
     data = {}
     count = 0
-    with open(path, 'r',encoding='utf-8') as f:
+    
+    
+    
+    
+    
+    head  = ''
+    
+    with open(path, 'r') as f:
         for line in f:
-            line = line.strip().split('\t')
+            line = line.strip().split('$$$$')
             count += 1
-            if count == 1: continue
+            if count == 1: 
+                head = line 
+                #print(head)
+                continue
 
             pubid = line[0]
-            fieldWords = line[3]
-            techWords = line[4]
-            funcWords = line[5]
-            goodsList = line[7]
+            fieldWords = line[2]
+            techWords = line[3]
+            funcWords = line[4]
+            goodsList = line[6]
             data[pubid] = {'fieldWords': fieldWords, 'techWords': techWords, 'funcWords': funcWords,
                            'goodsList': goodsList}
 
@@ -153,7 +162,7 @@ def data_process_dict(path):
         print(k, ' json is done')
 
 
-path = 'noman_features.txt'
+path = '.\\..\\..\\data\\feautures.txt'
 data_process_dict(path)
 
 

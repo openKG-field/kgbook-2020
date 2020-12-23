@@ -11,7 +11,7 @@ def get_data_from_mongo():
 
     (conn,db,col) = mongC.hvMongo('fieldsIndivideBase')
 
-    o = open('graph_data','w',encoding='utf8')
+    o = open('graph_data','w')
     header = ['pubid','title','applicantFirst','citingList','citingCount','citedPubidList','citedAppidList','citedCount']
     o.write('\t'.join(header) + '\n')
     amount = col.count({'fieldsName':'人工智能'})
@@ -43,8 +43,8 @@ def get_data_from_mongo():
 
 def data_select():
     count = 0
-    o= open('select_data','w',encoding='utf8')
-    with open('graph_data','r',encoding='utf8') as f :
+    o= open('select_data','w')
+    with open('graph_data','r') as f :
         for line in f :
             line = line.strip().split('\t')
             if line[3] == '-1' and line[4] == '-1' and line[5] == '-1' and line[6] == '-1' and line[7] == '-1':
@@ -53,5 +53,5 @@ def data_select():
             count += 1
             if count % 10000 is 0 :
                 print(count)
-
-data_select()
+get_data_from_mongo()
+#data_select()

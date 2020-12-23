@@ -173,8 +173,8 @@ def run(train_path,test_path):
     # plt.xlabel('epoch')
     # plt.ylabel('acc')
     # plt.show()
-train_path = '.\\..\\data\\train_data.txt'
-test_path =  '.\\..\\data\\test_data.txt'
+train_path = '.\\..\\..\\..\\data\\train_data.txt'
+test_path =  '.\\..\\..\\..\\data\\test_data.txt'
 
 run(train_path,test_path)
 
