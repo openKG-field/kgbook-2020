@@ -11,6 +11,7 @@ import sys
 from itertools import chain
 
 import nltk
+nltk.download('conll2002')
 import sklearn
 import scipy.stats
 from sklearn.metrics import make_scorer
@@ -27,6 +28,8 @@ TODO:改用专利数据
 train_sents = list(nltk.corpus.conll2002.iob_sents('esp.train'))
 test_sents = list(nltk.corpus.conll2002.iob_sents('esp.testb'))
 
+
+print(type(train_sents),train_sents)
 
 #特征提取器
 def word2features(sent, i):
