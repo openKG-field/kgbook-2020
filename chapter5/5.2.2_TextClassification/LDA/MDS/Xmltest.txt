@@ -1,0 +1,130 @@
+Relating web page change with revisitation patterns
+Distributive hierarchical model for object recognition in video
+METHODS AND SYSTEMS FOR CONCEALING INFORMATION
+Predicting graininess index on printing medium when printing according to any ink quantity set based on a graininess profile
+Vorrichtung, Verfahren und Programm zur Anzeige von raümlichen Daten | Spatial display device, spatial method, and program | Dispositif d'affichage spatial, procédé d'affichage spatial et programme
+COMPLEXITY AWARE CALL-STEERING STRATEGY IN HETEROGENEOUS HUMAN/MACHINE CALL-CENTER ENVIRONMENTS
+AI/COMPUTER BLOG INVENTION/PROCESS/METHOD | METHODE/PROCEDE/INVENTION DE CARNET WEB PAR ORDINATEUR/INTELLIGENCE ARTIFICIELLE
+Methods and systems for detecting presence of materials
+SYSTEMS AND METHODS FOR RECOGNIZING, CLASSIFYING, RECALLING AND ANALYZING INFORMATION UTILIZING SSM SEQUENCE MODELS
+LOGICAL SENSOR GENERATION IN A BEHAVIORAL RECOGNITION SYSTEM
+MOSFET controlling multiplier
+Process and equipment for pickling a metal strip
+INTERACTIVE STATEMENT
+SYSTEM AND METHOD FOR TRANSACTION LEARNING
+Voice actuation with contextual learning for intelligent machine control
+VERFAHREN ZUR ERSTELLUNG EINES DOSIERSCHEMAS FÜR VEDOLIZUMAB ZUR BEHANDLUNG VON PATIENTEN MIT REIZDARMSYNDROM | METHODS FOR ESTABLISHING A VEDOLIZUMAB DOSING REGIMEN TO TREAT PATIENTS WITH IRRITABLE BOWEL DISEASE | PROCÉDÉS POUR ÉTABLIR UN RÉGIME DE DOSAGE DU VEDOLIZUMAB POUR TRAITER DES PATIENTS ATTEINTS DE LA MALADIE DU CÔLON IRRITABLE
+QUANTON REPRESENTATION FOR EMULATING QUANTUM-LIKE COMPUTATION ON CLASSICAL PROCESSORS
+Method of classifying data using shallow feature selection
+Real Time Machine Vision and Point-Cloud Analysis For Remote Sensing and Vehicle Control
+VERFAHREN ZUM KLASSIFIZIEREN EINER ZEITLICHEN FOLGE VON EREIGNISSEN UNTER VERWENDUNG EINES GEPULSTE NEURONEN ENTHALTENDEN NETZES | METHOD FOR CLASSIFYING A TEMPORAL SERIES OF EVENTS BY MEANS OF A NETWORK CONTAINING PULSED NEURONES | PROCEDE DE CLASSEMENT D'UNE SERIE TEMPORELLE D'EVENEMENTS AU MOYEN D'UN RESEAU CONTENANT DES NEURONES PULSES
+Method and system for analysis of flow cytometry data using support vector machines
+Employing handover failures for network fault prediction or remedy
+METHOD AND APPARATUS FOR IDENTIFYING AUDIO SIGNAL BY REMOVING NOISE
+Optimizing method of learning data set for signal discrimination apparatus and signal discrimination apparatus capable of optimizing learning data set by using a neural network
+Admission control in cloud databases under service level agreements
+Non-linear model with disturbance rejection
+Unilaterally-controlled, time-insensitive, data-link recovery apparatus and method
+Mobility policy manager for mobile computing devices
+SYSTEM, PROCESS, AND DEVICES FOR REAL-TIME BRAIN MONITORING | SYSTEME, PROCEDE ET DISPOSITIF DE SURVEILLANCE DU CERVEAU EN TEMPS REEL
+ANALYSIS OF VIDEO GAME VIDEOS FOR INFORMATION EXTRACTION, CONTENT LABELING, SMART VIDEO EDITING/CREATION AND HIGHLIGHTS GENERATION
+Face recognition method and apparatus
+Determination of turbulence in a fluid
+System and method for selecting a color space using a neural network
+SCALABLE ANNOTATION ARCHITECTURE
+DEVICE APPLICATIONS AND SETTINGS SEARCH FROM SERVER SIGNALS
+INTROSPECTION METHOD AND APPARATUS FOR NETWORK ACCESS FILTERING
+Genotyping of deafness by oligonucleotide microarray analysis
+Classification techniques for medical diagnostics using optical spectroscopy
+CLASSIFICATION AND RISK-ASSIGNMENT OF CHILDHOOD ACUTE LYMPHOBLASTIC LEUKAEMIA (ALL) BY GENE EXPRESSION SIGNATURES | MÉTHODES DE CLASSIFICATION ET D'ÉVALUATION DES RISQUES POUR LA LEUCÉMIE LYMPHOBLASTIQUE AIGUË (LLA) INFANTILE, FAISANT APPEL À DES SIGNATURES D'EXPRESSION GÉNÉTIQUE
+CLASSIFICATION AND RISK-ASSIGNMENT OF CHILDHOOD ACUTE MYELOID LEUKAEMIA (AML) BY GENE EXPRESSION SIGNATURES | CLASSIFICATION ET ÉVALUATION DES RISQUES DE LEUCÉMIE MYÉLOÏDE AIGUË (LMA) DE L'ENFANT PAR DES SIGNATURES D'EXPRESSION GÉNIQUE
+UBIQUITOUS INTENT-BASED CUSTOMER INCENTIVE SCHEME
+SYSTEMS AND METHODS FOR DIAGNOSING TUMORS IN A SUBJECT BY PERFORMING A QUANTITATIVE ANALYSIS OF TEXTURE-BASED FEATURES OF A TUMOR OBJECT IN A RADIOLOGICAL IMAGE
+System and method to improve user experience with streaming content
+User-driven index selection
+ROUTING CALLERS FROM A SET OF CALLERS IN AN OUT OF ORDER SEQUENCE | ROUTAGE D'APPELANTS A PARTIR D'UN ENSEMBLE D'APPELANTS DANS LE DESORDRE
+Methods and apparatus for detecting hand-to-mouth behavior
+Information processing apparatus, observation value prediction method, and program
+Skew-tolerant gray codes
+CUSTOMER PREFERENCE SYSTEM | SYSTEME DE PREFERENCE DE CLIENTS
+Biometric-Based Access Control System Comprising a Near Field Communication Link
+APPARATUS EMPLOYING USER-SPECIFIED BINARY POINT FIXED POINT ARITHMETIC
+Two-dimensional and three-dimensional sliding window-based methods and systems for detecting vehicles
+METHOD AND SYSTEM FOR MITIGATING RISK IN A SUPPLY CHAIN
+METHODS AND SYSTEMS FOR QUANTIFYING THE GRADE OF PETROLEUM OIL BASED ON FLUORESCENCE
+Diagnostic system responsive to learned audio signatures
+Computer based versatile method for identifying protein coding DNA sequences useful as drug targets
+METHOD FOR ANALYZING BIOLOGICAL SPECIMENS BY SPECTRAL IMAGING
+Nonlinear-approximator-based automatic tuner
+VIDEO FEATURE TAGGING
+AUTOMATIC SUGGESTIONS FOR MESSAGE EXCHANGE THREADS
+COMPUTERIZED METHOD AND END-TO-END "PILOT AS A SERVICE" SYSTEM FOR CONTROLLING START-UP/ENTERPRISE INTERACTIONS
+VERFAHREN ZUR VORHERSAGE DER KLINISCHEN ERGEBNISSE BEI PERSONEN MIT COLITIS ULCEROSA | METHODS FOR PREDICTING CLINICAL OUTCOMES IN SUBJECTS AFFLICTED WITH ULCERATIVE COLITIS | MÉTHODES DE PRÉDICTION DE RÉSULTATS CLINIQUES CHEZ DES SUJETS ATTEINTS D'UNE COLITE ULCÉREUSE
+THERAPIEAUSWAHL FÜR PSORIASIS UND PSORIASISARTHRITIS | THERAPY SELECTION FOR PSORIASIS AND PSORIATIC ARTHRITIS | SÉLECTION DE THÉRAPIE CONTRE LE PSORIASIS ET L'ARTHRITE PSORIASIQUE
+Automatic software categorization and recommendations
+Haptic support and virtual activity monitor
+Intelligent Math Problem Generation
+ENTITY-SPECIFIC SEARCH MODEL
+Multi-compartment neuron suitable for implementation in a distributed hardware model by reducing communication bandwidth
+Advertisement insertion points detection for online video advertising
+Probability estimate for K-nearest neighbor
+Interactive method of communicating information to users over a communication network
+Secure Wireless Network Using Radiometric Signatures
+Arithmetic circuit for calculating a cumulative value as a result of parallel arithmetic processing
+ANALYZING METHOD AND ANALYZING SYSTEM FOR GRAPHICS PROCESS
+ADAPTABLE DATA CONNECTOR
+System and process for constructing optimized prototypes for pattern recognition using competitive classification learning
+Liquid gauging using sensor fusion and data fusion
+Process scheduling optimization method
+SYSTEM, METHOD, AND NON-TRANSITORY COMPUTER-READABLE STORAGE MEDIA FOR APPLYING FOR A CREDIT CARD
+Faulty dangling metal route detection
+INFERRED IDENTITY
+Automatic generation of policy-driven anti-malware signatures and mitigation of DoS (denial-of-service) attacks
+Metabotropic glutamate receptor 5 modulators and methods of use thereof
+Pattern associative memory system
+Apparatus for applying analysis rules to data sets in a relational database to generate a database of diagnostic records linked to the data sets
+OLFACTORY EMITTING SYSTEM | SYSTEME D'EMISSION OLFACTIVE
+Mobile device management proxy system
+Infrastructure for multi-modal multilingual communications devices
+DATA COMPARATOR
+Visual summarization of activity data of a computing session
+Web service for coordinating actions of clients
+Automatic tagging of content based on a corpus of previously tagged and untagged content
+Systems and methods for providing interoperability among healthcare devices
+ACTIVITY CENTRIC RESOURCE RECOMMENDATIONS IN A COMPUTING ENVIRONMENT
+MEMORY FACILITATION USING DIRECTED ACYCLIC GRAPHS
+EXPECTATION SAMPLING AND PERCEPTION CONTROL | ECHANTILLONNAGE DE PREVISIONS ET COMMANDE DE PERCEPTION
+Dynamical instrument for machining
+Systems and methods for determining predictive models of discourse functions
+SYSTEM FOR BATTERY PROGNOSTICS
+Method and apparatus for diagnosis of breast tumors
+Recurrent conditional random fields
+Method and system for driver handling skill recognition through driver's steering behavior
+Biochip microsystem for bioinformatics recognition and analysis
+Learning structured prediction models for interactive image labeling
+ESTIMATION DEVICE, ESTIMATION METHOD, AND NON-TRANSITORY COMPUTER READABLE STORAGE MEDIUM
+Computer system having a polynomial co-processor
+Method and system for controlling playing of a card game which determines a level of a user by checking play/card patterns
+Scalable Endpoint-Dependent Natural Language Understanding
+IMAGE-BASED AUTOMATED MEASUREMENT MODEL TO PREDICT PELVIC ORGAN PROLAPSE
+System and method for robust evaluation of the user experience in automated spoken dialog systems
+MEDICAL ANALYSIS SYSTEM
+SYSTEM AND METHOD FOR PROVIDING CUSTOMERS WITH PERSONALIZED INFORMATION ABOUT PRODUCTS
+Incremental ideographic character input method
+Dynamic synapse for signal processing in neural networks
+Object modeling for computer simulation and animation
+APPARATUS AND METHOD FOR PREDICTING UPCOMING STAGE OF CAROTID STENOSIS
+SYSTEM AND METHOD FOR GRAPH PATTERN ANALYSIS
+Exchange of syncronization data and metadata
+Method for generating a depth map, related system and computer program product
+LIFETIME FINANCIAL PRODUCT
+Learning painting styles for painterly rendering
+Small cationic antimicrobial peptides
+DETECTING ACTUATION OF ELECTRICAL DEVICES USING ELECTRICAL NOISE OVER A POWER LINE
+Large volume face recognition apparatus and method
+Refrigeration system and method using multiple variable capacity devices
+PREDICTING MULTIMEDIA SESSION MOS | PRÉDICTION DE MOS DE SESSION MULTIMÉDIA
+Verifying network attack detector effectiveness
+Gesture Recognition Systems
+Microelectromechanical system artificial neural network device
+FLEXIBLE, MODULARE ELEKTRONISCHE ELEMENTMUSTERMETODE UND GERÄT ZUM ZUSAMMENTRAGEN, VERARBEITEN, ÜBERMITTELN UND MELDEN VON DATEN UND INFORMATION | FLEXIBLE, MODULAR ELECTRONIC ELE

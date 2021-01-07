@@ -1,0 +1,4 @@
+FROM
+  FLATTEN(FLATTEN(FLATTEN(FLATTEN(FLATTEN(FLATTEN([patents-public-data:patents.publications],title_localized),abstract_localized),claims_localized),description_localized), priority_claim),inventor)
+WHERE
+  country_code='US'
