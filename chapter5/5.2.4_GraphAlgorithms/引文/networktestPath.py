@@ -42,17 +42,7 @@ def pubidListExact(name):
     for data in col.find(s, filter).batch_size(100):
         if 'pubid' in data:
             pubidList.append(data['pubid'])
-#     s = {'fieldsName':name}
-#     filter= {'citingList':1}
-#
-#
-#     pubidList = []
-#     for data in col.find(s,filter):
-#         if data.has_key('pubidList'):
-#             pubidList = data['pubidList']
-# #             for [weight,patent] in patents:
-# #                 #print patent['pubid']
-# #                 pubidList.append(patent['pubid'])
+
     return pubidList
 
 def pubidPath(pubidList):

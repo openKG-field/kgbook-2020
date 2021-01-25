@@ -60,11 +60,11 @@ def outImg(img,out,count):
     
 def pdf2png(name,file):
     pdffile = glob.glob(name)[0]
-    if not os.path.exists('/home/pydep/zhy/pdfImg/'+file.replace('.pdf','')):
-        os.mkdir('/home/pydep/zhy/pdfImg/'+file.replace('.pdf',''))
+    if not os.path.exists(file.replace('.pdf','')):
+        os.mkdir(file.replace('.pdf',''))
         
         
-    outputDir = '/home/pydep/zhy/pdfImg/'+file.replace('.pdf','') 
+    outputDir = ''
         
     outputDir = outputDir + '/'
     doc = fitz.open(pdffile)
@@ -154,24 +154,9 @@ if __name__ == '__main__':
     s = time.time()
     count  = 0
     inputPath = ''
-    
-    for root,dirs,paths in os.walk(r'/home/pydep/zhy/pdfdir/'):
-        for path in paths:
-            file = path
-            path = os.path.join(root,path)
-            
-            #print path,file,count
-            if 'pdf' not in path or 'CN' not in path:
-                continue
-            
-            pubid = file.strip()
-            
-            if mongoExists(pubid):
-                continue
-            pdf2png(path,file)
-            col.insert({'pubid':file.strip()})
-            print path,file,count
-            count += 1
+    name = 't.pdf'
+    file = 't.pdf'
+    pdf2png(name,file)
         #    if count % 30 is 0 :
         #        break
 	#if count % 30 is 0 :

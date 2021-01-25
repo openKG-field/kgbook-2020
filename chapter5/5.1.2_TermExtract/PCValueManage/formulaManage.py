@@ -17,7 +17,7 @@ for line in file:
     if head =='#!':
         count = count + 1
         if count%2 == 0:
-            print 'happen'
+
             tem = '#&' + line[2:]
     result.write(tem)
     result.write('\n')

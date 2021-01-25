@@ -18,23 +18,9 @@ Created on 2018��4��17��
 '''
 from lineModifyTool import lineModify
 from time import time
-from pymongo import MongoClient
+
 import re
 
-dbName = 'test'
-user = 'lyj-rw'
-passwd = '123456'
-host = '119.18.207.121'
-port = 27017
-
-def createMongo(tb):
-    global dbName,user,passwd,host,port
-    tbName = tb
-    conn = MongoClient(host,port)
-    db = conn[dbName]
-    db.authenticate(user, passwd)
-    collection = db[tbName]
-    return (conn,db,collection) 
 
 tech = ['技术领域']
  
@@ -81,7 +67,7 @@ def rullCheck(sentence,tech):
                 #sub = sentence[ sentence.index(rull) : ]
                 return True
     return False
-e = open('error.txt','w')
+e = open('error.txt','w',encoding='utf8')
 
 errorCount =0
 def descriptionAna(desc,pubid):
@@ -136,118 +122,56 @@ def descriptionAna(desc,pubid):
     return descDict
 
 
-def dataProcess():
-    errorList = []
-    (conn,db,col) = createMongo('cn_patent')
-    (conn,db,insertCol) = createMongo('descTest')
-    count = 0
-    w = 0
-    for data in col.find({'description':{'$exists':True}},{'pubid':1,'abst':1,'claimsList':1,'description':1}).limit(1000).batch_size(10):
-        #print w 
-        w += 1
-        if (not data.has_key('pubid')) or (not data.has_key('abst')) or (not data.has_key('claimsList')) or (not data.has_key('description')):
-            continue
-        #print 'F'
-        pubid = data['pubid']
-        abst = data['abst'].encode('utf-8')
-        abst = re.split("；|。||\t",abst)
-        claims = data['claimsList']
-        desc = data['description'].encode('utf-8')
-        desc = re.split("；|。||\t",desc)
-        tem =  descriptionAna(desc,pubid)
-        if tem != None:
-            desc = tem
-        else:
-            errorList.append(pubid)
-            continue
-        count += 1
-        if count % 200 == 0:
-            print count,' Done '
-        insertData = {}
-        insertData['pubid'] = pubid
-        insertData['abst'] = abst
-        insertData['claims'] = claims
-        insertData['desc'] = desc
-        
-        insertCol.insert(insertData)
-    error = open('errorPubid.txt','w')
-    error.write('\n'.join(errorList))       
+
     
     
-def extractDesc(path):
+def extractDesc(datas):
     #CN2+   实用新型
 
-    (conn,db,col) = createMongo('descTest')
+    o = open('descriptionFormat.txt', 'w',encoding='utf8')
 
-    o = open('descriptionFormat.txt','w')
-
-            
-#descDict = {'tech':[],'back':[],'content':[],'imageDesc':[]}
     errorCount = 0
-    
-    for data in col.find({},{'claims':1,'abst':1,'desc':1}):
-        i = data['desc']
-        i['abst'] = data['abst']
-        i['claims'] = data['claims']
-        o.write('摘要 : ' + '\n')
-        o.write('\n'.join(i['abst']))
-        o.write('\n')
-        o.write('\n')
-        o.write('技术领域 : ' + '\n')
-        o.write('\n'.join(i['tech']))
-        o.write('\n')
-        o.write('\n')
-        o.write('背景技术 : ' + '\n')
-        o.write('\n'.join(i['back']))
-        o.write('\n')
-        o.write('\n')
-        o.write('发明内容 : ' + '\n')
-        o.write('\n'.join(i['content']))
-        o.write('\n')
-        o.write('\n')
-        o.write('附图说明与实施例 : ' + '\n')
-        o.write('\n'.join(i['imageDesc']))
-        o.write('\n')
-        o.write('\n')
-        if len(i['tech']) <1 or len(i['back']) <1 or len(i['content']) <1 or len(i['imageDesc']) < 1:
-            errorCount +=1
-            e.write('技术领域 : ' + '\n')
-            e.write('\n'.join(i['tech']))
-            e.write('\n')
-            e.write('\n')
-            e.write('背景技术 : ' + '\n')
-            e.write('\n'.join(i['back']))
-            e.write('\n')
-            e.write('\n')
-            e.write('发明内容 : ' + '\n')
-            e.write('\n'.join(i['content']))
-            e.write('\n')
-            e.write('\n')
-            e.write('附图说明与实施例 : ' + '\n')
-            e.write('\n'.join(i['imageDesc']))
-            e.write('\n')
-            e.write('\n')
-    print errorCount
-    
-def manage():
-    dataProcess()
+
+    desc_arr = []
+    for  data in datas :
+        desc = data['description'].split('。')
+        pubid = data['pubid']
+        descDict = descriptionAna(desc,pubid)
+        print(descDict)
+        desc_arr.append(descDict)
+    return desc_arr
+
+def load_data(path):
+    datas = []
+    count = 0
+    header = []
+    with open(path,'r',encoding='utf8') as f :
+        for line in f :
+            line = line.strip().split('\t')
+            count += 1
+            if count == 1 :
+                header = line
+            else:
+                data = {}
+                for i in range(len(line)) :
+                    data[header[i]] = line[i]
+                datas.append(data)
+    return datas
+
 def process():
-    path = 'testFile.txt'
-    extractDesc(path)   
+    path = './/..//..//data//test.txt'
+
+    datas = load_data(path)
+    desc_arr = extractDesc(datas)
 
 s = time()
-print 'function is beginning'
 
-manage()
 process()
 
 
-
-  
-print 'function is Done'        
 e = time()
 
-print 'spend ', e-s,' second'        
+print ('spend ', e-s,' second')
 
         
         

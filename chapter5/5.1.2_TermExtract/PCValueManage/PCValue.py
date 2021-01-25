@@ -1,15 +1,17 @@
-#encoding=utf-8
-'''
-author: Hongyu Zhao
-
-Data : 09/25/2017 
-'''
+# -*- encoding: utf-8 -*-
+"""
+@File    : PCValue.py
+@Time    : 2021/1/18 10:30
+@Author  : Zhaohy
+@Email   : zhaohongyu2401@yeah.net
+@Software: PyCharm
+"""
 #flag keyword by jieba function and exact keywords by flag and combination 
 import time
 import os
 import sys
-reload(sys)
-sys.setdefaultencoding( "utf-8" )
+#reload(sys)
+#sys.setdefaultencoding( "utf-8" )
 
 sys.path.append("../")
 
@@ -28,7 +30,7 @@ wordFrequencyWrite = open('wordFrequency.txt',"w")
 #'/home/zhy/jieba/merge.txt'
 
 
-file = open('xmlResult.txt',"r")
+file = open('xmlResult.txt',"r",encoding='utf8')
 limitedWord =2
 
 
@@ -59,7 +61,7 @@ def PCValue(a, word_dict, file_dict, selection, wordTword, limitedWord):
     elif selection =='b':
         extendCount = 0
         extendFrequency = 0
-        if wordTword.has_key(a):
+        if a in wordTword:
             for word in wordTword[a]:
                 if word_dict[a] < limitedWord or word =='start':
                     continue
@@ -82,12 +84,6 @@ def checkRull(flag):
         return True
     return False
 
-# def createMongo(dbName,tbName,host="localhost",port=27017):
-#     conn = MongoClient(host,port)
-#     db = conn[dbName]
-#     collection = db[tbName]
-#     return (conn,db,collection)
-#data manage function for 
 def DataManage():
     for line in file:
         count=0
@@ -103,11 +99,11 @@ def DataManage():
                 print(str(fileCount) +  " file has finished. ") 
             words = jieba.posseg.cut(line[2:])
             for word, flag in words:
-                word = word.decode('utf-8')
+
                 if word =='start':
                     continue
                 count = count + 1
-                word = word.decode('utf-8')
+
                 wordList.append(word)
                 flagList.append(flag)
             for i in range(len(wordList)):
@@ -128,18 +124,18 @@ def DataManage():
                         continue
                     if skipWord(wordList[i+1]) and not flagList[i] =='v':
                         continue
-                    if word_dict.has_key(wordList[i]+wordList[i+1]):
+                    if wordList[i]+wordList[i+1] in word_dict:
                         word_dict[wordList[i]+wordList[i+1]]= word_dict[wordList[i]+wordList[i+1]]+1;
                         boolControl1 = True
                     else :
                         word_dict[wordList[i]+wordList[i+1]]=1.2;
                         boolControl1 = True
                         combineList.append(wordList[i]+wordList[i+1])
-                    if wordCheckDict.has_key(wordList[i]+wordList[i+1]):
+                    if wordList[i]+wordList[i+1] in wordCheckDict:
                         wordCheckDict[wordList[i]+wordList[i+1]] = 2
                     else:
                         wordCheckDict[wordList[i]+wordList[i+1]] = 1
-                        if file_dict.has_key(wordList[i]+wordList[i+1]):
+                        if wordList[i]+wordList[i+1] in file_dict:
                             file_dict[wordList[i]+wordList[i+1]] = file_dict[wordList[i]+wordList[i+1]]+1
                         else:
                             file_dict[wordList[i]+wordList[i+1]] = 1
@@ -151,7 +147,7 @@ def DataManage():
                         continue
                     if skipWord(wordList[i+2]) and not flagList[i+1] =='v':
                         continue
-                    if word_dict.has_key(wordList[i]+wordList[i+1]+wordList[i+2]):
+                    if wordList[i]+wordList[i+1]+wordList[i+2] in word_dict:
                         boolControl2 = True
                         word_dict[wordList[i]+wordList[i+1]+wordList[i+2]]= word_dict[wordList[i]+wordList[i+1]+wordList[i+2]]+1;
                     else :
@@ -159,11 +155,11 @@ def DataManage():
                         word_dict[wordList[i]+wordList[i+1]+wordList[i+2]]=1.3;
                         combineList.append(wordList[i]+wordList[i+1]+wordList[i+2])
                     currentContent = wordList[i]+wordList[i+1]+wordList[i+2]
-                    if wordCheckDict.has_key(currentContent):
+                    if currentContent in wordCheckDict:
                         wordCheckDict[currentContent] = 2
                     else:
                         wordCheckDict[currentContent] = 1
-                        if file_dict.has_key(currentContent):
+                        if currentContent in file_dict:
                             file_dict[currentContent] = file_dict[currentContent]+1
                         else:
                             file_dict[currentContent] = 1
@@ -171,8 +167,8 @@ def DataManage():
                     key1 = wordList[i]+wordList[i+1]
                     key2 = wordList[i]+wordList[i+1]+wordList[i+2]
                     key3 = wordList[i+1]+wordList[i+2]
-                    if wordTword.has_key(key1):
-                        if wordTword[key1].has_key(key2):
+                    if key1 in wordTword:
+                        if key2 in wordTword[key1]:
                             continue
                         else:
                             wordTword[key1][key2] = 1
@@ -183,8 +179,8 @@ def DataManage():
                     key1 = wordList[i]+wordList[i+1]
                     key2 = wordList[i]+wordList[i+1]+wordList[i+2]
                     key3 = wordList[i+1]+wordList[i+2]
-                    if wordTword.has_key(key3):
-                        if wordTword[key3].has_key(key2):
+                    if key3 in wordTword:
+                        if key2 in wordTword[key3]:
                             continue
                         else:
                             wordTword[key3][key2] = 1
@@ -205,7 +201,7 @@ def __init__():
     wordL3Count = 0
     wordPCVcount = 0
     commentCount = 0
-    for key, value in sorted(word_dict.iteritems(), key=lambda (k,v): (v,k)):  
+    for key, value in sorted(word_dict.iteritems(), key=lambda k:k[1]):
         combineCount = combineCount + 1      
         if value > limitedWord and str(value)[len(str(value))-1]=="3":
             limitCount = limitCount + 1
@@ -214,7 +210,7 @@ def __init__():
             commentCount = commentCount + 1
             print('The ' + str(commentCount) + ' word has been finished')
             #print('{0:10}  {1:10f}'.format(key, value))
-    for key, value in sorted(word_dict.iteritems(), key=lambda (k,v): (v,k)):  
+    for key, value in sorted(word_dict.iteritems(), key=lambda k:k[1]):
         #combineCount = combineCount + 1      
         if value > limitedWord and str(value)[len(str(value))-1]=="2":
             pcV = PCValue(key, word_dict,file_dict,  "b", wordTword, limitedWord)
@@ -224,15 +220,15 @@ def __init__():
             wordL3Count = wordL3Count + 1
             limitCount = limitCount + 1
             #print('{0:10}  {1:10f}'.format(key, value))
-    for key, value in sorted(word_dict.iteritems(), key=lambda (k,v): (v,k)): 
-        wordFrequencyWrite.write((key + '  ' + str(value)).encode('utf-8'))
+    for key, value in sorted(word_dict.iteritems(), key=lambda k:k[1]):
+        wordFrequencyWrite.write(key + '  ' + str(value))
         wordFrequencyWrite.write('\n')
     frequencyWordNumber = 0
     fileFrequencyWrite.write(str(fileCount))
     fileFrequencyWrite.write('\n')
-    for key, value in sorted(file_dict.iteritems(), key=lambda (k,v): (v,k)): 
+    for key, value in sorted(file_dict.iteritems(),key=lambda k:k[1]):
         if value >2 :
-            fileFrequencyWrite.write((key + "   " + str(value)).encode('utf-8'))
+            fileFrequencyWrite.write(key + "   " + str(value))
             fileFrequencyWrite.write('\n')
             frequencyWordNumber = frequencyWordNumber + 1
     print("the amount number of frequency words is " + str(frequencyWordNumber))
@@ -246,16 +242,16 @@ def __init__():
     evaluateList.append(int(float(limitCount)/6*5))
     evaluateList.append(int(float(limitCount)/7*6))
     evaluateCount = 0
-    for key, value in sorted(PCV_dict.iteritems(), key=lambda (k,v): (v,k)): 
+    for key, value in sorted(PCV_dict.iteritems(),key=lambda k:k[1]):
         evaluateCount = evaluateCount + 1
-        key = key.encode('utf-8')
+
         if len(evaluateList)>0 and evaluateCount == evaluateList[0]:
             print(value)
             evaluateList.pop(0)
         if len(key)> 6*3:
             continue
             print(len(key))
-        writePCValue.write((key + "   " + str(value)).encode('utf-8'))
+        writePCValue.write(key + "   " + str(value))
         writePCValue.write('\n')
         wordPCVcount = wordPCVcount + 1
     print("the amount number of length 3 word is " + str(wordL3Count))

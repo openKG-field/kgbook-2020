@@ -10,8 +10,8 @@ Data : 09/25/2017
 import os
 import sys
 import time
-reload(sys)
-sys.setdefaultencoding( "utf-8" )
+#reload(sys)
+#sys.setdefaultencoding( "utf-8" )
 from pymongo import MongoClient 
 
     
@@ -23,12 +23,7 @@ jieba.load_userdict("wordMerge.txt")
 limitedWord =2
 mainIPC = 'G06F'
 limitedWord = 3
-dbName = 'test'
-tbName = 'zhyPatDataBean'
-user = 'lyj-rw'
-passwd = '123456'
-host = '172.10.30.74'  
-port = 27017
+
 
 cwd=os.getcwd()
 print(cwd)
@@ -52,19 +47,14 @@ def headCheck(head):
 #filename = input("please input the filename with path ")
 #resultName = input("please input the result name with path ")
 # here is the input entire patent paper file
-def createMongo():
-    global dbName,tbName,user,passwd,host,port
-    conn = MongoClient(host,port)
-    db = conn[dbName]
-    db.authenticate(user, passwd)
-    collection = db[tbName]
+
     return (conn,db,collection) 
 def dividWord():
     # read the input data
-    stopwordFile = open('stopword.txt','r')
+    stopwordFile = open('stopword.txt','r',encoding='utf8')
     # Word dividing for the input data
-    divideWordResult = open('divideWordResult.txt','w')
-    fileFrequency = open('fileFrequency.txt','w')
+    divideWordResult = open('divideWordResult.txt','w',encoding='utf8')
+    fileFrequency = open('fileFrequency.txt','w',encoding='utf8')
     checkWordMap = {'start':0}
     fileCount = 0
     fileFrequencyMap = {'start':0}
@@ -72,10 +62,10 @@ def dividWord():
     for line in stopwordFile:
         wordContent = line.split()
         for t in wordContent:
-            if stopwordMap.has_key(t.decode('utf-8')):
+            if t in stopwordMap:
                 continue
             else:
-                stopwordMap[t.decode('utf-8')]=1
+                stopwordMap[t]=1
 #     (conn,db,collection) = createMongo()   
 #     select_where = {"$or":[{"title":{"$regex":"核磁共振"}},{"abst":{"$regex":"核磁共振"}},{"claims":{"$regex":"核磁共振"}}]}
 #     for dataContent in collection.find(select_where):
@@ -87,10 +77,10 @@ def dividWord():
 #             tem = tem + '  ' + i
 #         file.append('#!' + '  ' + dataContent['abst'])
 #         file.append('#&' + '  ' + dataContent['claims'])
-    file = open('qinghuaTest.txt','r')
+    file = open('qinghuaTest.txt','r',encoding='utf8')
     for line in file:
     # read file line by line
-        line = line.decode('utf-8')
+
         if len(line)>1 and headCheck(line[:2]):
             head = line[:2]
             if head == '#$':
@@ -119,11 +109,11 @@ def dividWord():
                             word = word.replace(k,'')
                     tem = '  ' + word
                     divideWordResult.write(tem)
-                    if wordCheckDict.has_key(tem):
+                    if tem in wordCheckDict:
                         continue
                     else:
                         wordCheckDict[tem] = 1
-                        if fileFrequencyMap.has_key(tem):
+                        if tem in fileFrequencyMap:
                             fileFrequencyMap[tem] = fileFrequencyMap[tem] + 1
                         else:
                             fileFrequencyMap[tem] = 1
@@ -132,7 +122,7 @@ def dividWord():
             divideWordResult.write('\n')
             checkWordMap.clear()
     divideWordResult.close()
-    for key, value in sorted(fileFrequencyMap.iteritems(), key=lambda (k,v): (v,k)):  
+    for key, value in sorted(fileFrequencyMap.items(), key=lambda k:k[1]):
         fileFrequency.write(key + ' ' + str(value))
         fileFrequency.write('\n')
 time_start = time.time()

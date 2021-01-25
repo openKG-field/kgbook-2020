@@ -291,6 +291,7 @@ if __name__ == '__main__':
     text = code('code.png')
     final = code_handle(text)
     browser = login_act(browser, final)
+
     f = codecs.open("D://Wiki_analysis//国知局//notext.txt","a",encoding="utf-8")
     page = 1
     while page < 1:

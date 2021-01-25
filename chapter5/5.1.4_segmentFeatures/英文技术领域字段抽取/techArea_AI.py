@@ -9,40 +9,11 @@ from pymongo import MongoClient
 from elasticsearch import Elasticsearch
 import re
 from elasticsearch import helpers
-es = Elasticsearch()
 import json
-
-dbName = 'test'
-user = 'lyj-rw'
-passwd = '123456'
-host = '103.31.53.213'
-port = 27017
-
-def createMongo(tb):
-    global dbName,user,passwd,host,port
-    tbName = tb
-    conn = MongoClient(host,port)
-    db = conn[dbName]
-    db.authenticate(user, passwd)
-    collection = db[tbName]
-    return (conn,db,collection) 
-
-def lcMongo(tb):
-    dbName = 'mqpat'
-    user = 'mqpat-rw'
-    passwd = '123456'
-    host = '182.18.59.57'
-    port = 27017
-    tbName = tb
-    conn = MongoClient(host,port)
-    db = conn[dbName]
-    db.authenticate(user, passwd)
-    collection = db[tbName]
-    return (conn,db,collection) 
 
 import json
 def extractTechArea(pubidList):
-    o = open('techAreaResult_AInew.txt','w')
+    o = open('techAreaResult_AInew.txt','w',encoding='utf8')
     (conn,db,col) = createMongo('us_patent')
     count = 0
     #actions = []

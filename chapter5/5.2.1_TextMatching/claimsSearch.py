@@ -13,15 +13,15 @@ from jiebaCutPackage import jiebaInterface
 def freCount (words,sent):
     count = 0 
     for w in words:
-	if type(sent) is list:
-	    for i in sent:
-		if w in i :
-		    count += 1
-		    break
+	    if type(sent) is list:
+	        for i in sent:
+		        if w in i :
+		            count += 1
+		            break
 	else:
 	    if w in sent:
-		count += 1
-		continue
+		    count += 1
+		    continue
     return count 
 
  
@@ -73,9 +73,9 @@ for w in words:
 
 for en in enWords:
     if en in wordFre:
-	wordFre[en] += 1
+	    wordFre[en] += 1
     else:
-	wordFre[en] =  1
+	    wordFre[en] =  1
 #wordFre[u'制备'] = 2
 #for w in wordFre:
 #    print 'word = ',w
@@ -118,23 +118,7 @@ for v in res['hits']['hits']:
     pubid = data['pubid']
     title = ''
     tem = 0
-    print data['pubid'], ' = ' ,data['title']
-#    if 'title' in data:
-#	tem += freCount(wordFre,data['title'])
-#	title = data['title']
-#    if 'abst' in data:
-#	tem += freCount(wordFre,data['abst'])
-#    if 'claimsList' in data:
-#	tem += freCount(wordFre,data['claimsList'])
-#    pubidFre[(pubid,title)] = tem
-#count = 0
-#for k,v in sorted(pubidFre.iteritems(),key=lambda k:k[1],reverse=True):
-#    (pubid,title) = k 
-#    print pubid , ' = ' ,title
-#    count += 1
-#    if count > 100 :
-#	break
-
+    print (data['pubid'], ' = ' ,data['title'])
 
 
 

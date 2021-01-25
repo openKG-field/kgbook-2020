@@ -9,7 +9,7 @@ from PIL import Image
 
 import numpy as np
 #import matplotlib.pyplot as plt
-path = u'D:\\LDA\\protege\\Pdfreader\\image\\test3.jpg'
+
 
 count = 0 
 
@@ -94,7 +94,7 @@ def imageDetermine(root,path,country):
     #when input image come from a cn patent
     if country == 'CN':
         head = org.crop(box)
-        print type(head)
+
         #plt.imshow(head)
         #plt.show()
         #apply a word recognize function 
@@ -163,7 +163,7 @@ def getPaths(path):
             # find the first fig of description and we assume the figs which comes from the 1st one will always be fig of description
             if not bg: 
                 #imageDetermin function is a boolean function which will determine if the current image is the fig of patent's description
-                print 'p = ',p
+
                 if  imageDetermine(root,p,'CN'):
                     bg = True
                     figList.append(p)
@@ -173,7 +173,9 @@ def getPaths(path):
     
         o.write(json.dumps(figList)+'\n')
 
-#path is the input path which store the all pdf images file             
+
+
+
 
 
     

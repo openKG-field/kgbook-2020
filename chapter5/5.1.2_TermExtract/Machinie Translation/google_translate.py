@@ -111,7 +111,7 @@ def zh(content):
                 texts += item[0][i][0]
         return texts
     except:
-        print 'error happen'
+        print ('error happen')
         return ""
 
 def split_string(str,cutting_method):
@@ -147,7 +147,7 @@ def get_translate(context):
             if count != len(list):
                 item =item+"."
             str+=translate(item)
-        print count
+        print (count)
     else:
         str = translate(context)
     return str
@@ -163,7 +163,7 @@ def get_zh(context):
             if count != len(list):
                 item =item+"."
             str+=zh(item)
-            print str
+            print (str)
     else:
         trans = zh(context)
         #print 'trans = ',trans
@@ -179,7 +179,7 @@ if __name__ == '__main__':
         errorCount = json.load(open('continue.json','r'))['key']
     except :
         pass
-    print 'already finished ',errorCount
+    print ('already finished ',errorCount)
     try:
         chinese = open(source, 'rt')
         f = open(target,'a')
@@ -189,10 +189,10 @@ if __name__ == '__main__':
             count +=1
             if count < errorCount:
                 continue
-            print count
+
 
             result = get_translate(line)
-            print 'result = ', result
+
             f.write(result+'\n')
             f.flush()
         f.close()

@@ -407,4 +407,4 @@ def clusterProcss(fieldsName,field_list=None):
         return input_cluster(idAndWord, field_list) # 人工聚类 
 
 a = clusterProcss('人工智能芯片')
-print a     
+
