@@ -338,73 +338,47 @@ def input_cluster(idAndword_w, class_list):
         tec_dict[d] = output(idAndword_w, other_list)
     result['其他'] = tec_dict
     return result
-from pymongo import MongoClient
-def boolMongo(tb):
-    global port
-    host = '192.168.1.10'
-    host = '182.18.59.57'
-    dbName = 'mqpat'
-    user = 'mqpat-rw'
-    passwd = '123456'
-    port = 27017
-    myTbNme = tb
-    conn = MongoClient(host,port)
-    db = conn[dbName]
-    db.authenticate(user, passwd)
-    collection = db[myTbNme]
-    return (conn,db,collection) 
 
 
-from jiebaCutPackage.jiebaInterface import jiebaCut
-def dataProcess(fieldsName):
+from jieba import  posseg as pg
+
+def jiebaCut(sent):
+
+    r = []
+    for w,f in pg.cut(sent):
+        if (f[0] == 'n' or f[0] == 'x') and len(w) >= 2 :
+            r.append(w)
+    return ','.join(r)
+
+def dataProcess(data_path):
     
     resultDict = {}
-    (conn,db,col)= boolMongo('fieldsIndivideBase')
-    for data in col.find({'fieldsName':fieldsName,'type':'cn','noisyType':'O'},{'pubid':1,'techArea':1}).batch_size(100):
-        if 'techArea' not in data:
-            continue
-        techArea = jiebaCut(data['techArea'])
-        techArea = techArea.replace('_1','')
-        pubid = data['pubid']
-        if pubid in resultDict:
-            continue
-        else:
-            resultDict[pubid] = ['','',techArea.decode('utf-8').split(',')]
+    count = 0
+    with open(data_path,'r',encoding='utf8') as f :
+        for line in f :
+            line = line.strip().split('\t')
+            count += 1
+            if count == 1 : continue
+        if len(line) > 6 and len(line[7]) > 1 :
+            resultDict[line[0]] = ['','',line[7].split('$$')]
+
     
     return resultDict
 
-import json
-def getFieldList(fieldsName):
-    field_list = []
-    (coon,db,col) = boolMongo('techEvolution')
-    for data in col.find({'fieldsName':fieldsName},{'evolution':1}).batch_size(1):
-        if 'evolution' not in data :
-            continue
-        e = json.loads(data['evolution'])
-        #print e
-        for year in e:
-            if 'field' not in e[year]:
-                continue
-            fields = e[year]['field']
-            for field in fields:
-                for k in field:
-                    if k.isspace() or len(k) < 1 :
-                        continue
-                    else:
-                        field_list.append(k.replace('_1',''))
-            
-    return field_list  
+
      
 
     
-def clusterProcss(fieldsName,field_list=None):
-    idAndWord = dataProcess(fieldsName)
+def clusterProcss(data_path,field_list=None):
+    idAndWord = dataProcess(data_path)
     if field_list == [] or field_list==None:
-        field_list = getFieldList(fieldsName)
-
-        return auto_cluster(idAndWord, field_list) # 自动聚类
+        return 'error with empty input'
+        # field_list = getFieldList(data_path)
+        #
+        # return auto_cluster(idAndWord, field_list) # 自动聚类
     else:
         return input_cluster(idAndWord, field_list) # 人工聚类 
 
-a = clusterProcss('人工智能芯片')
+data_path = './/..//..//data//test.txt'
+a = clusterProcss(data_path)
 

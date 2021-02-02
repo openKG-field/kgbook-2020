@@ -137,5 +137,3 @@ text = u'涡轮增压是要创造一种在采取废气涡轮增压而且增压�
 #     责任编辑：张义凌'
 topK = 2
 s = do(text,topK)
-
-print s

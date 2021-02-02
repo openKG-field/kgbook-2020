@@ -33,29 +33,29 @@ def createMongo(tb):
     return (conn,db,collection) 
 
 
-def pubidListExact(name):
-    (conn,db,col) = createMongo('fieldsIndivideBase')
-    s = {'fieldsName': name, 'noisyType': 'O'}
-    filter = {'pubidList': 1, 'pubid': 1}
-
+def pubidListExact(path):
+    count = 0
     pubidList = []
-    for data in col.find(s, filter).batch_size(100):
-        if 'pubid' in data:
-            pubidList.append(data['pubid'])
+    with open(path,'r',encoding='utf8') as f :
+        for line in f :
+            line = line.strip().split('\t')
+            count += 1
+            if count == 1 :continue
+            pubidList.append(line[0])
 
     return pubidList
 
-def pubidPath(pubidList):
-#pubids by read file=========================
-#     f = codecs.open('CitingPat.txt','r')
-#     file =list()
-#     for line in f.readlines():
-#         line = lineModify(line)
-#         if 'CN' in line:
-#             pubid = line[:len(line)-1]
-#         else:
-#             pubid = line
-#         file.append(pubid+' ')
+
+
+def pubidPath(pubidList,citing_path):
+    citing_dict = {}
+    count=0
+    with open(citing_path,'r',encoding='utf8') as f :
+        for line in f :
+            count += 1
+            if count == 1 :continue
+            citing_dict[line[0]] = {'citedList':line[1],'weight':line[2]}
+
     (conn,db,col) = createMongo('cn_patent')
      
     file = pubidList
@@ -69,14 +69,14 @@ def pubidPath(pubidList):
                 G.add_edge(i,j,weight=1)
      
     for i in file:
-        for data in col.find({'pubid':i},{'citedPubidList':1,'citedCount':1}):
-            if data.has_key('citedPubidList') and data.has_key('citedCount'):
-                citedList = data['citedPubidList']
-                weight = data['citedCount']
-        if len(citedList) < 1 :
-            continue
-        for t in citedList:
-            G.add_edge(i,t,weight=weight)
+
+        if  i in citing_dict :
+            citedList = citing_dict[i]['citedList']
+            weight = citing_dict[i]['weight']
+            if len(citedList) < 1 :
+                continue
+            for t in citedList:
+                G.add_edge(i,t,weight=weight)
       
     #G = lollipop_graph(4, 6)
     pathlengths = []
@@ -85,7 +85,7 @@ def pubidPath(pubidList):
     print("source vertex {target:length, }")
     for v in G.nodes():
         count += 1
-        print count, ' Done'
+        print (count, ' Done')
         spl = single_source_shortest_path_length(G, v)
         #print('%s %s' % (v, spl))
         for p in spl.values():
@@ -133,85 +133,16 @@ def pubidPath(pubidList):
     plt.axis('off')
     plt.savefig("weighted_graph1.png")  # save as png
     plt.show()  # display
-     
-# def exactInf(pubids):
-#     print len(pubids)
-#     (conn,db,col) = createMongo('cn_patent')
-#     pubidInputDict ={}
-#     for i in pubids:
-#         pubidInputDict[i] = 1
-#     missPubid = []
-#     missCount = 0
-#     clusterIndex = 0
-#     patentDict = {}
-#     cnCount = 0
-#     for data in col.find({'pubid':{'$in':pubids}},{'citingList':1,'pubid':1,'citedPubidList':1}).batch_size(100):
-#         cnCount += 1
-#         currentIndex = -1
-#         if not  data.has_key('pubid'):
-#             missCount += 1
-#             continue
-#         if not data.has_key('citingList') and not data.has_key('citedPubidList') :
-#             #print data['pubid']
-#             missPubid.append(data['pubid'])
-#             missCount += 1
-#             continue
-#         if data.has_key('citingList'):
-#             citing = data['citingList']
-#             for i in citing:
-#                 if not pubidInputDict.has_key(i):
-#                     continue
-#                 if patentDict.has_key(i):
-#                     currentIndex = patentDict[i]
-#                 else:
-#                     currentIndex = clusterIndex + 1
-#                 patentDict[i] = currentIndex
-#         elif data.has_key('citedPubidList'):
-#             cited = data['citedPubidList']
-#             for i in cited:
-#                 if not pubidInputDict.has_key(i):
-#                     continue
-#                 if currentIndex == -1:
-#                     if patentDict.has_key(i):
-#                         currentIndex = patentDict[i]
-#                     else:
-#                         currentIndex = clusterIndex + 1
-#                 patentDict[i] = currentIndex
-#         else:
-#             missCount += 1
-#     patentCluster = {}
-#     print 'found count = ',cnCount
-#     print 'orginal count = ',len(patentDict)
-#     for i in patentDict:
-#         index = patentDict[i]
-#         if patentCluster.has_key(index):
-#             patentCluster[index].append(i)
-#         else:
-#             patentCluster[index] = []
-#             patentCluster[index].append(i)
-#     
-#     for i in patentCluster:
-#         print 'length of current cluster = ',len(patentCluster[i])
-#         #print i,'  =  ', patentCluster[i]
-# #         mainIpc = data['mainIpc4'][:3]
-# #         if patentDict.has_key(mainIpc):
-# #             patentDict[mainIpc].append(data['pubid'])
-# #         else:
-# #             patentDict[mainIpc] = []
-# #             patentDict[mainIpc].append(data['pubid'])
-# #     for i in patentDict:
-# #         print i,'  =  ',patentDict[i]
-# #     
-#     print 'miss count  = ',missCount    
-#     print missPubid[:10]
+
 
 def main():
-    name = '人工智能芯片'
-    pubidList = pubidListExact(name)
+    path = './/..//..//data//test.txt'
+    citedPath = ''
+    pubidList = pubidListExact(path,citedPath)
     #exactInf(pubidList)
-    print len(pubidList)
+    print (len(pubidList))
     if len(pubidList) < 1 :
-        print 'we do not find any meaning result for such area'
+        print ('we do not find any meaning result for such area')
     else:
         pubidPath(pubidList)
     

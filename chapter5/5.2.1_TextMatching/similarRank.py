@@ -341,7 +341,7 @@ pubid = 'CN107231158A'
 similar(fieldsName,pubid)
 #fourAreaSimilar(fieldsName, language, aim)     
 e = time.time()
-print e - s
+print (e - s)
 
 
             
