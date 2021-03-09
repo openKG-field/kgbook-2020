@@ -1,21 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="395dbfc1-6fbc-47fe-bf18-8fe57db01b49" name="Default Changelist" comment="update chapter 5">
-      <change afterPath="$PROJECT_DIR$/chapter6/6.1_KeywordAssistance/w2v_rerank_by_used.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kgbook-2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kgbook-2020.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="395dbfc1-6fbc-47fe-bf18-8fe57db01b49" name="Default Changelist" comment="miss 5.2.1,5.2.4,6">
+      <change afterPath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/word2vec_textrank-master/result" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/citing_path/pubids.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/5.2.1_TextMatching/similarRank.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.1_TextMatching/similarRank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/clientLDA.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/ldawood.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/loadModelAndAnalysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/loadModelAndAnalysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/.idea/MDS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/.idea/dictionaries/wangn.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/ChineseTech.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/ChineseTech1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/ChineseTech1.txt.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/ChineseTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/MDStest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/MDStest2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/MDStest3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/MDStest4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/MDStest5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/Xmltest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/XmltestAbst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/brandonrose_doc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/cluster_script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/content2018.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/d3/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/d3/d3.v3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/d3/d3.v3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/doc_cluster.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/doc_cluster.pkl_01.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/doc_cluster.pkl_02.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/genres_list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/lineModifyTool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/link_list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/link_list_imdb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/link_list_wiki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/mergeWord.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/remodifynew.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/synopses_list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/synopses_list.txt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/synopses_list_imdb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/synopses_list_wiki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/title_list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/ward_clusters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/ward_clusters1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/MDS/层次分析.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/fwordsReview.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/shenjian/clusterResult.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/shenjian/clusterResult.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/shenjian/cutOffCluster.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/shenjian/cutOffCluster.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/shenjian/subClusterFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/shenjian/subClusterFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/gongxian/sysWordCluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/gongxian/sysWordCluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/ASExtractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/AbstCreate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/EnExtractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/EnKeywordEvaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/EnSentenceEvaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/Extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/TextRank/EnKeywordExtraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/TextRank/EnSegmentation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/TextRank/EnSentenceExtraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/TextRank/KeywordExtraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/TextRank/Segmentation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/TextRank/SentenceExtraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/TextRank/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/TextRank/trainer/english.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/TextRank/trainer/stopword_en.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/TextRank/trainer/stopword_zh.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/images/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/images/open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/images/save.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/result_rouge.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/rouge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/text/007.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/text/008.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/text/01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/text/02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/text/03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/text/04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/ASExtractor-master/text/05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/.idea/TextRank4ZH-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/example/example01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/example/example02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/Segmentation_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/TextRank4Keyword_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/TextRank4Sentence_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/codecs_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/doc/01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/doc/02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/doc/03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/doc/04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/doc/05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/doc/06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/doc/07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/jieba_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/test/util_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/textrank4zh/Segmentation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/textrank4zh/TextRank4Keyword.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/textrank4zh/TextRank4Sentence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/textrank4zh/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/textrank4zh/stopwords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/textrank4zh/stopwords.txt.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/textrank4zh/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/句法树.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/TextRank4ZH-master/摘要生成.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/text-summarization-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/text-summarization-master/based_on_features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/text-summarization-master/data/PART_III.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/text-summarization-master/data/ROUGE_1_2_3_scoring.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/text-summarization-master/data/ROUGE_1_scoring.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/text-summarization-master/data/data_set.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/text-summarization-master/data/data_set1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/text-summarization-master/data/data_set1.txt.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/text-summarization-master/data/data_set2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/text-summarization-master/data/data_set2.txt.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/text-summarization-master/data/summary_and_rouge_scores.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/text-summarization-master/load_data.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/word2vec_textrank-master/word2vec_textrank.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.3_TextGeneration/word2vec_textrank-master/word2vec_textrank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/引文/networktestPath.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/引文/networktestPath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/引文/Figure_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/citing_path/Figure_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/引文/networktest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/引文/networktestPath.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/citing_path/networktestPath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/引文/引文.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/citing_path/引文.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/引文/引文2.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/citing_path/引文2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/引文/新建文本文档.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/citing_path/新建文本文档.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/word2vecShiTestNew [2].py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,31 +187,11 @@
       <recent name="D:\project\kgbook-2020\chapter6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\kgbook-2020\chapter5\5.2.3_TextGeneration\word2vec_textrank-master" />
       <recent name="D:\project\kgbook-2020\chapter3_new\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sysWordCluster">
-    <configuration name="PCValue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="kgbook-2020" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter5/5.1.2_TermExtract/PCValueManage" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter5/5.1.2_TermExtract/PCValueManage/PCValue.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.networktestPath">
     <configuration name="gloveTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kgbook-2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,6 +226,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter5/5.2.2_TextClassification/LDA/loadModelAndAnalysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="networktestPath" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kgbook-2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/引文" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter5/5.2.4_GraphAlgorithms/引文/networktestPath.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,11 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sysWordCluster" />
+        <item itemvalue="Python.networktestPath" />
         <item itemvalue="Python.loadModelAndAnalysis" />
+        <item itemvalue="Python.sysWordCluster" />
         <item itemvalue="Python.gloveTest" />
         <item itemvalue="Python.techArea" />
-        <item itemvalue="Python.PCValue" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611563963005</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="miss 5.2.1,5.2.4,6">
+      <created>1612238092451</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612238092451</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +429,7 @@
     <MESSAGE value="Louvain for CD" />
     <MESSAGE value="update demo 2,5,6 chapters" />
     <MESSAGE value="update chapter 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="update chapter 5" />
+    <MESSAGE value="miss 5.2.1,5.2.4,6" />
+    <option name="LAST_COMMIT_MESSAGE" value="miss 5.2.1,5.2.4,6" />
   </component>
 </project>

@@ -1,6 +1,0 @@
-build
-dist
-MANIFEST
-textrank4zh/__pycache__
-*.pyc
-test.py
