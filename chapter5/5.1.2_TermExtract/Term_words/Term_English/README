@@ -1,0 +1,21 @@
+Cvalue文件：
+nltkWordTag.py
+通过组词的方式，利用类似中文处理的方法，发现组合词。
+Dictresult2018.txt 中保存了整理后的组合词
+C:\Python27\python.exe D:/NLPdeepLearning/kgbook-2021/kgbook-2020/chapter5/5.1.2_TermExtract/Term_words/Term_English/Cvalue/nltkWordTag(1).py
+D:\NLPdeepLearning\kgbook-2021\kgbook-2020\chapter5\5.1.2_TermExtract\Term_words\Term_English\Cvalue
+The 1 word has been finished
+The 2 word has been finished
+the amount number of frequency words is 713
+the amount number of files is  245
+the amount number of final terms is  2
+0
+the amount number of length 3 word is 2
+The function spend 0 day 0 hour 0 minutes 2 second on running. 
+
+Process finished with exit code 0
+
+
+Dict_terms文件：
+format_word_dict.py 将 组合词的结果拆分，重组数据结构，以便于更高效的应用于模型中。
+test.py可以做结果测试。

@@ -1,0 +1,47 @@
+C:\Python27\python.exe D:/LDA/SAO-master/ChineseParsernew.py
+(S1
+  (S
+    (NP He)
+    (VP
+      (VP killed (NP theman) (PP with (NP aknife)))
+      and
+      (VP murdered (NP him) (PP with (NP a dagger))))
+    .))
+Building prefix dict from the default dictionary ...
+Loading model from cache d:\temp\jieba.cache
+Loading model cost 1.724 seconds.
+Prefix dict has been built succesfully.
+[Found java: C:\Java\jdk1.8.0_201\bin\java.exe]
+(ROOT
+  (IP
+    (PP
+      (P \u5bf9)
+      (IP
+        (NP (NN \u8f66\u578b) (NN \u8bad\u7ec3) (NN \u6570\u636e))
+        (VP
+          (VV \u8fdb\u884c)
+          (VP
+            (VV \u5b66\u4e60)
+            (VP (ADVP (AD \u4ece\u800c)) (VP (VV \u751f\u6210) (NP (NN \u8f66\u578b) (NN \u6a21\u578b))))))))
+    (PU ,)
+    (LCP (NP (CP (IP (VP (VV \u5224\u522b))) (DEC \u7684)) (NP (NN \u51c6\u786e\u7387))) (LC \u4e0a))
+    (VP (VV \u5f97\u4ee5) (VP (VV \u63d0\u5347)))
+    (PU \u3002)))
+[Found java: C:\Java\jdk1.8.0_201\bin\java.exe]
+(ROOT
+  (IP
+    (VP
+      (VP
+        (VV \u63d0\u9ad8)
+        (NP (DNP (NP (NN \u6570\u636e) (NN \u91c7\u96c6)) (DEG \u7684)) (NP (NN \u6548\u7387))))
+      (PU ,)
+      (VP
+        (VV \u672c\u53d1\u660e)
+        (VP
+          (VV \u53ef\u4ee5)
+          (NP
+            (DNP (PP (P \u57fa\u4e8e) (NP (NN \u4eba\u5de5\u667a\u80fd) (NN \u673a\u5668) (NN \u5b66\u4e60))) (DEG \u7684))
+            (NP (NN \u65b9\u5f0f))))))))
+94.3479998112
+
+Process finished with exit code 0

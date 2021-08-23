@@ -1,0 +1,1 @@
+利用brat开源工具进行标注时，可以利用的patentCorpus语料和annotation、visual等标注设置文件。

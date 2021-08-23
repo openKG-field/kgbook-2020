@@ -7,8 +7,9 @@
 
 
 
-
+import Dijkstra
 from Dijkstra import  Dijkstra,Node
+import re
 
 def graph():
     v1 = Node('v1')
@@ -31,7 +32,7 @@ def DegreeCentrality(nodes):
     cen_re = []
 
     for n in nodes:
-        cen_re.append(len(n.sub))
+        cen_re.append(len(n.next))
     return cen_re
 
 def ClosenessCentrality(nodes):
@@ -59,9 +60,9 @@ def ClosenessCentrality(nodes):
 def main():
     nodes = graph()
     degree_cen = DegreeCentrality(nodes)
-    print(degree_cen)
+    print('degree_cen = ',degree_cen)
     close_cen = ClosenessCentrality(nodes)
-    print(close_cen)
+    print('close_cen = ',close_cen)
 
 if __name__ == '__main__':
     main()

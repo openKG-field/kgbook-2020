@@ -1,0 +1,714 @@
+start  0
+-r-ethyl imidazoles  1.2
+-tungsten structure  1.2
+1,1-dihalo-1- methylsufonyl  1.2
+2-alkoxycarbonylbenzenesulfonyl -glycineamides  1.2
+2-aminoalkyl-1- pyridylcarbonylphenyl  1.2
+3-hydroxyaminomethyl-s-triazol-4-yl benzophenones  1.2
+4-arylaminopyridine herbicides  1.2
+abrasion resistance  1.2
+accelerator damper  1.2
+accounting machine  1.2
+acid diester  1.2
+acid fumes  1.2
+acid-acrylamide copolymers  1.2
+acids containing  1.2
+acoustic transmitter  1.2
+acting deburring  1.2
+activating brake  1.2
+acyl-acidic amino  1.2
+adjustable guide  1.2
+adjustable spanner  1.2
+air culture  1.2
+aircraft cargo  1.2
+alkoxyalkyl groups  1.2
+alternate make  1.2
+amino acid  1.2
+aminoplast carrying  1.2
+anti-skid control  1.2
+aromatic diamines  1.2
+arrangement including  1.2
+asynchronous control  1.2
+automatic disconnect  1.2
+automatic holding  1.2
+automatic transmission  1.2
+automobile compartment  1.2
+automobile safety  1.2
+ball retrieving  1.2
+base powder  1.2
+bearing materials  1.2
+beta-lactam groups  1.2
+bias field  1.2
+bidirectional web  1.2
+biodegradable materials  1.2
+bipolar electrodes  1.2
+blank value  1.2
+bottle carrier  1.2
+brake shoes  1.2
+bulk cargo  1.2
+carbenicillin analogues  1.2
+carbon structures  1.2
+carbonaceous bodies  1.2
+carbonate process  1.2
+carboxylic acids  1.2
+cargo hook  1.2
+cargo vessel  1.2
+carrier station  1.2
+carrying alkoxyalkyl  1.2
+carrying case  1.2
+cartridge tape  1.2
+cassette pump  1.2
+cathode fingers  1.2
+cationic species  1.2
+cellulosic materials  1.2
+ceramic material  1.2
+cereal products  1.2
+change-speed transmissions  1.2
+changing apparatus  1.2
+chlorinated phenols  1.2
+chromatographic analysis  1.2
+cigarette machine  1.2
+cinnamate liquid  1.2
+cleaning assembly  1.2
+coating material  1.2
+cobalt complexes  1.2
+coil tap  1.2
+cold light  1.2
+compartment door  1.2
+composite bearing  1.2
+compositions comprising  1.2
+compositions containing  1.2
+compositions methods  1.2
+containing diphenylamine  1.2
+containing gas  1.2
+containing siloxane  1.2
+continuous casting  1.2
+continuous filament  1.2
+control arrangement  1.2
+controlled vehicle  1.2
+controlling equipment  1.2
+controlling gas  1.2
+copper strike  1.2
+copy sheet  1.2
+correlation cell  1.2
+cotton-tung oil  1.2
+covering fabric  1.2
+crack-resistant epoxy  1.2
+crosslinked polymers  1.2
+crystal spectrometer  1.2
+current superconductors  1.2
+cyclic-3,5-cytidylic acid  1.2
+cylinder including  1.2
+cytokinin-3-nucleoside compounds  1.2
+dampener means  1.2
+dampening apparatus  1.2
+damping form  1.2
+data modem  1.2
+deburring elements  1.2
+demand heart  1.2
+dense silica  1.2
+density sensing  1.2
+dental cements  1.2
+dental filling  1.2
+detection devices  1.2
+detergent composition  1.2
+detergent solvent  1.2
+developer composition  1.2
+development apparatus  1.2
+dial pulse  1.2
+dialkyldifluorosilane compounds  1.2
+dichroic parameters  1.2
+differential transmission  1.2
+digital message  1.2
+diode stack  1.2
+diphenylamine group  1.2
+direct-station-selection intercommunication  1.2
+disconnect features  1.2
+dish antenna  1.2
+disintegrating apparatus  1.2
+division multiplexing  1.2
+domain memory  1.2
+door frame  1.2
+door weatherstrip  1.2
+dual master  1.2
+durable-press textiles  1.2
+dyestuffs containing  1.2
+electric buzzer  1.2
+electric sparks  1.2
+electrolytic moisture  1.2
+electrostatographic printing  1.2
+employing surfactants  1.2
+engine dampener  1.2
+engine exhaust  1.2
+epoxidized urea  1.2
+epoxy resin  1.2
+evacuated chamber  1.2
+evacuation air  1.2
+evaporating zns  1.2
+exhaust gas  1.2
+exhaust nozzle  1.2
+expansion valve  1.2
+explosive compositions  1.2
+extrusion process  1.2
+fabrication thereof  1.2
+face commutator  1.2
+feeding apparatus  1.2
+fiber lubricants  1.2
+fiber stream  1.2
+fiber-loaded windshield  1.2
+field apparatus  1.2
+filament yarn  1.2
+filled container  1.2
+filled containers  1.2
+filling package  1.2
+film strip  1.2
+filter cartridge  1.2
+filtering aerosol  1.2
+fine gauge  1.2
+fishing sinker  1.2
+flammable vapors  1.2
+flat steel  1.2
+flex abrasion  1.2
+flow control  1.2
+flow sample  1.2
+flow separation  1.2
+flowable material  1.2
+fluid impact  1.2
+fluid-dynamic shock  1.2
+fluoridation apparatus  1.2
+foaming machines  1.2
+folding apparatus  1.2
+foot shower  1.2
+football game  1.2
+form roller  1.2
+formation permeability  1.2
+frameless safety  1.2
+free conveyor  1.2
+fuel injection  1.2
+fuel particles  1.2
+fuel production  1.2
+fuel rod  1.2
+game structure  1.2
+gas correlation  1.2
+gas flow  1.2
+gas recirculation  1.2
+gas turbine  1.2
+gauge wires  1.2
+gel time  1.2
+gelatin composition  1.2
+gelled polymer  1.2
+generator circuit  1.2
+generator power  1.2
+glass fiber  1.2
+glass surface  1.2
+glass-ceramic articles  1.2
+grain milling  1.2
+grip clutch  1.2
+group carrying  1.2
+guide retainer  1.2
+hair clipper  1.2
+halogenated hydrocarbons  1.2
+hardening gelatin  1.2
+hay stack  1.2
+hd pigment  1.2
+head cutting  1.2
+hearing aid  1.2
+heart pacer  1.2
+heat-shrinkable plastic  1.2
+heteroaromatic nitriles  1.2
+high speed  1.2
+holding circuit  1.2
+hollow balls  1.2
+hose clamp  1.2
+hydraulic transmission  1.2
+hydrocarbon conversion  1.2
+hydrodesulfurization process  1.2
+hydrostatic extrusion  1.2
+image reproducing  1.2
+imidazole compounds  1.2
+immunological tests  1.2
+impact gin  1.2
+improved atomization  1.2
+improved ends  1.2
+improved texture  1.2
+in-line paper  1.2
+individual spot-lights  1.2
+inflatable life  1.2
+injection nozzle  1.2
+inorganic titanium  1.2
+inserting apparatus  1.2
+insulating coil  1.2
+iron-containing mica  1.2
+jet fuel  1.2
+jet nozzles  1.2
+key telephone  1.2
+lawn mower  1.2
+life preserver  1.2
+lifting apparatus  1.2
+light display  1.2
+light mirror  1.2
+limit stop  1.2
+line verification  1.2
+linear dichroic  1.2
+liquid crystals  1.2
+liquid developer  1.2
+liquid dispenser  1.2
+lithographic plate  1.2
+loading assembly  1.2
+loading chute  1.2
+loading-unloading station  1.2
+long film  1.2
+low melting  1.2
+low-alloy steel  1.2
+machine magazines  1.2
+magnetic domain  1.2
+magnetic record  1.2
+magnetic separation  1.2
+making face  1.2
+manufacturing glass  1.2
+manufacturing phosphorus  1.2
+manufacturing superconductors  1.2
+master cylinder  1.2
+material containing  1.2
+material dispenser  1.2
+meat products  1.2
+medical cassette  1.2
+medium authentication  1.2
+medium drive  1.2
+melting point  1.2
+membrane filtration  1.2
+metallic fuel  1.2
+metallic soaps  1.2
+methylsufonyl methanesulfonamides  1.2
+mgo-containing potassium  1.2
+micron-size particulates  1.2
+modifying cigarette  1.2
+moisture cell  1.2
+monoazo dyestuffs  1.2
+monochloroacetate esters  1.2
+mounting plate  1.2
+multi-container reserves  1.2
+multiple games  1.2
+multiple spark  1.2
+multiplexing transmission  1.2
+n- pyridyl  1.2
+n-long chain  1.2
+nc machine  1.2
+nitrile tris  1.2
+nitrogen oxides  1.2
+novel cathode  1.2
+obtaining pair  1.2
+open-end spinning  1.2
+operating lamp  1.2
+operational switch  1.2
+optical scanning  1.2
+orthodontic anchorage  1.2
+oscillating jet  1.2
+oxidation-resistant coating  1.2
+oxidizing nitrogen  1.2
+p'-phenyl cinnamate  1.2
+panel bed  1.2
+paper inserting  1.2
+parking space  1.2
+particular mixtures  1.2
+pellet loading  1.2
+penicillin salts  1.2
+peroxydisulfuric acid  1.2
+phosphite cobalt  1.2
+phosphorus oxychloride  1.2
+photoelectric marking  1.2
+photographic layers  1.2
+photometer circuitry  1.2
+photopolymerizable compositions  1.2
+piecing thread  1.2
+piston combustion  1.2
+plastic hose  1.2
+plate element  1.2
+point disubstituted-p  1.2
+polyamide base  1.2
+polycarbonate composition  1.2
+polymer solution  1.2
+polymeric articles  1.2
+polymerizing lactams  1.2
+polymers containing  1.2
+porous alumina/silica  1.2
+porous materials  1.2
+potassium salt  1.2
+powder coating  1.2
+power generator  1.2
+power source  1.2
+power transmission  1.2
+precoating panel  1.2
+preparing catalyst  1.2
+preparing polyphase  1.2
+pressurizing pistons  1.2
+printing press  1.2
+process solutions  1.2
+processing meat  1.2
+producing dialkyldifluorosilane  1.2
+proportioning valves  1.2
+protecting transistors  1.2
+pulling tube  1.2
+pulse detector  1.2
+pulse generator  1.2
+pulse width  1.2
+push capability  1.2
+pyridylcarbonylphenyl imidazole  1.2
+quinazoline derivatives  1.2
+race game  1.2
+ratchet wrench  1.2
+reaction products  1.2
+recirculation flow  1.2
+record medium  1.2
+recuperator structures  1.2
+reducing formation  1.2
+reflective surfaces  1.2
+regulating devices  1.2
+repeated bit  1.2
+resilient container  1.2
+resin compositions  1.2
+resonance preventive  1.2
+responsive light  1.2
+resulting products  1.2
+retardant polycarbonate  1.2
+retractable safety  1.2
+ringer power  1.2
+roasting implement  1.2
+rocket engine  1.2
+rod pellet  1.2
+roll changing  1.2
+rolling mill  1.2
+rotary piston  1.2
+rotary toothbrush  1.2
+rotating gas  1.2
+safety belts  1.2
+safety water  1.2
+salt fertilizers  1.2
+screening arrangement  1.2
+segmented mounting  1.2
+separating collecting  1.2
+service functions  1.2
+sheet feeding  1.2
+sheet stripping  1.2
+shifting linkage  1.2
+shock ring  1.2
+shrimp deheader  1.2
+side outlet  1.2
+signal identification  1.2
+silicon carbide  1.2
+siloxane groups  1.2
+single frequency  1.2
+ski race  1.2
+slide projector  1.2
+smoke filter  1.2
+soil improvement  1.2
+soluble monoazo  1.2
+solvent compositions  1.2
+space barrier  1.2
+spark discharge  1.2
+special wheel  1.2
+spinning unit  1.2
+spray dispenser  1.2
+spring grip  1.2
+stack disintegrating  1.2
+station terminal  1.2
+steel product  1.2
+steel rods  1.2
+sterile packaging  1.2
+stop structure  1.2
+storage devices  1.2
+storing photometer  1.2
+stream feeder  1.2
+strike bath  1.2
+strip magazine  1.2
+structure allowing  1.2
+styryl dyestuffs  1.2
+subscriber carrier  1.2
+sulphamoyl substituent  1.2
+sulphato substituent  1.2
+sulphuric acid  1.2
+surgical operating  1.2
+switch assembly  1.2
+switch states  1.2
+switchable beamwidth  1.2
+sympathetic ink  1.2
+table soccer  1.2
+table top  1.2
+tablet formulation  1.2
+tape player  1.2
+telephone lines  1.2
+tensioning means  1.2
+textile fiber  1.2
+theophylline derivatives  1.2
+thermostatic expansion  1.2
+thrust augmentation  1.2
+time division  1.2
+tissue irradiator  1.2
+titanium coating  1.2
+tobacco smoke  1.2
+tool carrying  1.2
+transmission systems  1.2
+triaryl phosphite  1.2
+turbine engine  1.2
+turkey call  1.2
+urea derivatives  1.2
+value storing  1.2
+vapors containing  1.2
+vehicle systems  1.2
+visor assembly  1.2
+wafer basket  1.2
+waste gases  1.2
+water trap  1.2
+water-insoluble styryl  1.2
+water-soluble gelatin  1.2
+waterflooding employing  1.2
+web medium  1.2
+wheel rims  1.2
+width control  1.2
+wienie wiggler  1.2
+wiggler roasting  1.2
+window regulator  1.2
+windshield wiper  1.2
+wiper superstructure  1.2
+x-ray crystal  1.2
+yarn detection  1.2
+yarn tensioning  1.2
+1,1-dihalo-1- methylsufonyl methanesulfonamides  1.3
+2- 3-hydroxyaminomethyl-s-triazol-4-yl benzophenones  1.3
+2-aminoalkyl-1- pyridylcarbonylphenyl imidazole  1.3
+acrylic acid-acrylamide copolymers  1.3
+acting deburring elements  1.3
+activating brake shoes  1.3
+acyl-acidic amino acid  1.3
+adjustable guide retainer  1.3
+aircraft cargo hook  1.3
+alkoxysilyl-substituted epoxidized urea  1.3
+allowing alternate make  1.3
+amino acid diester  1.3
+aminoplast carrying alkoxyalkyl  1.3
+anti-skid control arrangement  1.3
+arrangement including plurality  1.3
+audio responsive light  1.3
+automatic disconnect features  1.3
+automatic holding circuit  1.3
+automobile compartment door  1.3
+base powder coating  1.3
+bias field apparatus  1.3
+bidirectional web medium  1.3
+bit digital message  1.3
+blank value storing  1.3
+carbonate process solutions  1.3
+carboxylic acids containing  1.3
+carrier station terminal  1.3
+carrying alkoxyalkyl groups  1.3
+carrying sulphamoyl substituent  1.3
+cartridge tape player  1.3
+chain acyl-acidic amino  1.3
+cigarette machine magazines  1.3
+cinnamate liquid crystals  1.3
+coating material containing  1.3
+cold light mirror  1.3
+cold water-soluble gelatin  1.3
+compartment door weatherstrip  1.3
+composite bearing materials  1.3
+containing beta-lactam groups  1.3
+containing diphenylamine group  1.3
+containing metallic fuel  1.3
+containing siloxane groups  1.3
+continuous filament yarn  1.3
+control arrangement including  1.3
+controlled vehicle systems  1.3
+controlling gas flow  1.3
+copper strike bath  1.3
+copy sheet stripping  1.3
+crack-resistant epoxy resin  1.3
+critical current superconductors  1.3
+crosslinked polymers containing  1.3
+curable crack-resistant epoxy  1.3
+current electrolytic cell  1.3
+cylinder including plurality  1.3
+damping form roller  1.3
+demand heart pacer  1.3
+dental filling package  1.3
+detergent solvent compositions  1.3
+dial pulse detector  1.3
+diphenylamine group carrying  1.3
+disubstituted-p p'-phenyl cinnamate  1.3
+division multiplexing transmission  1.3
+dual master cylinder  1.3
+dyestuffs containing diphenylamine  1.3
+electrolytic moisture cell  1.3
+electrostatographic printing machine  1.3
+engine dampener means  1.3
+engine exhaust nozzle  1.3
+epoxidized urea derivatives  1.3
+exhaust gas recirculation  1.3
+explosive compositions containing  1.3
+fiber stream feeder  1.3
+fiber-loaded windshield wiper  1.3
+film strip magazine  1.3
+fine gauge wires  1.3
+flame retardant polycarbonate  1.3
+flammable vapors containing  1.3
+flat steel product  1.3
+flex abrasion resistance  1.3
+flowable material dispenser  1.3
+fluid impact gin  1.3
+fluid-dynamic shock ring  1.3
+football game structure  1.3
+frameless safety water  1.3
+free aromatic diamines  1.3
+frequency-shift-keying acoustic transmitter  1.3
+fuel rod pellet  1.3
+gas correlation cell  1.3
+gas flow sample  1.3
+gas recirculation flow  1.3
+gas turbine engine  1.3
+gelled polymer solution  1.3
+generating electric sparks  1.3
+generator power source  1.3
+glass ceramic material  1.3
+glass fiber stream  1.3
+granular mgo-containing potassium  1.3
+hay stack disintegrating  1.3
+high flex abrasion  1.3
+high-strength low-alloy steel  1.3
+hydraulic anti-skid control  1.3
+hydrido nitrile tris  1.3
+hydrostatic extrusion process  1.3
+igniting flammable vapors  1.3
+in-line paper inserting  1.3
+inflatable life preserver  1.3
+inorganic titanium coating  1.3
+insulating coil tap  1.3
+internal combustion engine  1.3
+jet fuel production  1.3
+layer sterile packaging  1.3
+limit stop structure  1.3
+linear dichroic parameters  1.3
+liquid developer composition  1.3
+lithographic plate element  1.3
+long film strip  1.3
+low melting point  1.3
+magnetic domain memory  1.3
+magnetic record medium  1.3
+making face commutator  1.3
+making peroxydisulfuric acid  1.3
+manufacturing cold light  1.3
+manufacturing flat steel  1.3
+manufacturing phosphorus oxychloride  1.3
+master cylinder including  1.3
+medical cassette pump  1.3
+melting point disubstituted-p  1.3
+metallic fuel particles  1.3
+mgo-containing potassium salt  1.3
+modifying cigarette machine  1.3
+monoazo dyestuffs containing  1.3
+multiple spark discharge  1.3
+nc machine tools  1.3
+novel cathode fingers  1.3
+novel n-long chain  1.3
+offset printing machine  1.3
+offset printing press  1.3
+oil durable-press textiles  1.3
+open-end spinning unit  1.3
+operational switch states  1.3
+organic biodegradable materials  1.3
+orthogonal linear dichroic  1.3
+oscillating jet nozzles  1.3
+oxidizing nitrogen oxides  1.3
+p'-phenyl cinnamate liquid  1.3
+paper inserting apparatus  1.3
+parking space barrier  1.3
+pellet loading assembly  1.3
+phosphite cobalt complexes  1.3
+photopolymer lithographic plate  1.3
+photopolymerizable compositions comprising  1.3
+piston combustion engine  1.3
+planetary differential transmission  1.3
+plastic hose clamp  1.3
+polyamide base powder  1.3
+polymers containing siloxane  1.3
+potassium salt fertilizers  1.3
+powder coating material  1.3
+power generator circuit  1.3
+power transmission systems  1.3
+precoating panel bed  1.3
+preparing hollow balls  1.3
+processing meat products  1.3
+producing cyclic-3,5-cytidylic acid  1.3
+producing dialkyldifluorosilane compounds  1.3
+producing fine gauge  1.3
+producing special wheel  1.3
+projector loading-unloading station  1.3
+pulse generator power  1.3
+pulse width control  1.3
+pyridylcarbonylphenyl imidazole compounds  1.3
+quantitative chromatographic analysis  1.3
+recirculation flow control  1.3
+record medium authentication  1.3
+reducing formation permeability  1.3
+removing sulphuric acid  1.3
+resin compositions methods  1.3
+responsive light display  1.3
+retardant polycarbonate composition  1.3
+retractable safety belts  1.3
+ringer power generator  1.3
+rocket engine exhaust  1.3
+rod pellet loading  1.3
+roll changing apparatus  1.3
+rotary piston combustion  1.3
+rotating gas correlation  1.3
+sealing filled container  1.3
+segmented mounting plate  1.3
+shaped carbonaceous bodies  1.3
+sheet feeding apparatus  1.3
+shifting change-speed transmissions  1.3
+silicon bipolar electrodes  1.3
+ski race game  1.3
+soluble monoazo dyestuffs  1.3
+special wheel rims  1.3
+speed in-line paper  1.3
+spring grip clutch  1.3
+stack disintegrating apparatus  1.3
+stop structure allowing  1.3
+storing photometer circuitry  1.3
+subscriber carrier station  1.3
+sulphuric acid fumes  1.3
+surgical operating lamp  1.3
+textile fiber lubricants  1.3
+texturing continuous filament  1.3
+thermostatic expansion valve  1.3
+time division multiplexing  1.3
+tio hd pigment  1.3
+tobacco smoke filter  1.3
+tool carrying case  1.3
+triaryl phosphite cobalt  1.3
+tris triaryl phosphite  1.3
+vacuum-sealed filled containers  1.3
+value storing photometer  1.3
+vapors containing gas  1.3
+vehicle automatic transmission  1.3
+water soluble monoazo  1.3
+water-insoluble styryl dyestuffs  1.3
+water-soluble gelatin composition  1.3
+waterflooding employing surfactants  1.3
+web medium drive  1.3
+wienie wiggler roasting  1.3
+wiggler roasting implement  1.3
+windshield wiper superstructure  1.3
+x-ray crystal spectrometer  1.3
+yarn detection devices  1.3
+yarn tensioning means  1.3
+acrylic acid  2.2
+combustion engine  2.2
+combustion engines  2.2
+electrolytic cell  2.2
+including plurality  2.2
+machine tools  2.2
+offset printing  2.2
+paper tube  2.2
+preparation thereof  2.2
+internal combustion engines  2.3
+internal combustion  3.2
+printing machine  3.2

@@ -1,0 +1,6 @@
+NerService.py
+
+为已经训练好的NER model 搭载一个服务。
+
+通过ner model的路径和 读取参数 加载model
+利用evaluate 识别 输入line的结果并返回

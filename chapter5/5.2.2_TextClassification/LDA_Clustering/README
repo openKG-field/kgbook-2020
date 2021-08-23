@@ -1,0 +1,5 @@
+loadModelAndAnalysis.py
+
+读取 smallTest.txt
+利用LDA模型，训练获得主题文档与主题词
+将结果输出到shenjian文件夹中

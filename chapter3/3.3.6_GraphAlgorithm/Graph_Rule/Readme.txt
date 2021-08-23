@@ -1,1 +1,5 @@
-#使用统一的数据集来识别关联规则
+aprioir.py
+结果存入 result.txt中
+
+FP-growth.py
+结果存入 result.txt中

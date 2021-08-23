@@ -1,0 +1,14 @@
+C:\Python36\python.exe D:/NLPdeepLearning/kgbook-2021/kgbook-2020/chapter3/3.3.6_GraphAlgorithm/Graph_Rule/Apriori/aprioir(2).py
+Building prefix dict from the default dictionary ...
+Loading model from cache D:\Temp\jieba.cache
+Loading model cost 1.101 seconds.
+Prefix dict has been built succesfully.
+cn-word dict load finished
+stopword dict load finished
+289
+the time is 0.000997304916381836
+具有关联的词是[[['人工智能'], ['智能'], ['毫微微小区'], ['网络管理'], ['网络资源分配'], ['语音']], [['人工智能', '智能'], ['人工智能', '语音'], ['智能', '语音'], ['毫微微小区', '网络管理']], [['人工智能', '智能', '语音']]]
+------------------
+对应的支持度为{('人工智能', '智能'): 3, ('人工智能', '语音'): 3, ('智能', '语音'): 5, ('毫微微小区', '网络管理'): 10, ('人工智能', '智能', '语音'): 3}
+
+Process finished with exit code 0

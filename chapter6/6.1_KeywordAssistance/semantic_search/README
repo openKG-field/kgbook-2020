@@ -1,0 +1,11 @@
+boolSearchForPatent.py
+
+1. 输入布尔型检索内容
+2. 将结果拆解成es 能接受的数据
+3. 对于不同的模糊匹配，格外进行支持
+
+数据 测试 ~ 10
+<class 'str'>
+{'bool': {'should': [{'bool': {'should': [{'match_phrase': {'title': '区块链'}}, {'match_phrase': {'asbt': '区块链'}}, {'match_phrase': {'claimsList': '区块链'}}, {'bool': {'must': [{'bool': {'should': [{'match_phrase': {'title': '移动支付'}}, {'match_phrase': {'asbt': '移动支付'}}, {'match_phrase': {'claimsList': '移动支付'}}]}}, {'bool': {'should': [{'match_phrase': {'title': '人工智能'}}, {'match_phrase': {'asbt': '人工智能'}}, {'match_phrase': {'claimsList': '人工智能'}}]}}]}}]}}, {'bool': {'should': [{'bool': {'must': [{'match_phrase': {'title': {'query': '数据 测试', 'slop': 10}}}, {'match_phrase': {'title': '数据'}}, {'match_phrase': {'title': '测试'}}]}}, {'bool': {'must': [{'match_phrase': {'asbt': {'query': '数据 测试', 'slop': 10}}}, {'match_phrase': {'asbt': '数据'}}, {'match_phrase': {'asbt': '测试'}}]}}, {'bool': {'must': [{'match_phrase': {'claimsList': {'query': '数据 测试', 'slop': 10}}}, {'match_phrase': {'claimsList': '数据'}}, {'match_phrase': {'claimsList': '测试'}}]}}]}}]}}
+
+Process finished with exit code 0

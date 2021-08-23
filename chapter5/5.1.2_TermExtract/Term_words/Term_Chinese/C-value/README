@@ -1,0 +1,15 @@
+PCValue.py
+
+读取 xmlResult2数据，在只考虑两词与三词组合的情况下，计算所有组合词pv-value.
+the amount number of frequency words is 2215
+the amount number of files is  2188
+the amount number of final terms is  9987
+9.565431091727243
+11.090354888959126
+11.644872633407081
+13.724314175086915
+14.556090791758852
+the amount number of length 3 word is 7896
+The function spend 0 day 0 hour 0 minutes 46 second on running. 
+
+Process finished with exit code 0

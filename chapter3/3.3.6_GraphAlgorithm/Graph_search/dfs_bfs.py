@@ -88,7 +88,7 @@ M           N
 '''
 
 
-def main():
+def build_data():
     a = Node('a')
     b = Node('b')
     c = Node('c')
@@ -114,8 +114,11 @@ def main():
     j.link([m])
     k.link([n])
     n.link([o])
+    return a
+def main():
 
 
+    a = build_data()
     v = dfs(a)
     print(v)
 

@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/13426/ontologies/2020/2/PatentOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/13426/ontologies/2020/2/PatentOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/13426/ontologies/2020/2/PatentOntology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Field"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#proposal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isComponentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFunctionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObjectOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Parameter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Property"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mouse"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Component"/>
+        <Class IRI="#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Component"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Component"/>
+        <Class IRI="#proposal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object"/>
+        <Class IRI="#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object"/>
+        <Class IRI="#proposal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Product"/>
+        <Class IRI="#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Product"/>
+        <Class IRI="#proposal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#proposal"/>
+        <Class IRI="#Field"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Field"/>
+        <NamedIndividual IRI="#Computer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Product"/>
+        <NamedIndividual IRI="#Computer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#proposal"/>
+        <NamedIndividual IRI="#Computer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Field"/>
+        <NamedIndividual IRI="#Mouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Product"/>
+        <NamedIndividual IRI="#Mouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#proposal"/>
+        <NamedIndividual IRI="#Mouse"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Computer"/>
+        <NamedIndividual IRI="#Mouse"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Computer"/>
+        <NamedIndividual IRI="#Computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Computer"/>
+        <NamedIndividual IRI="#Mouse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFunctionOf"/>
+        <NamedIndividual IRI="#Computer"/>
+        <NamedIndividual IRI="#Computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFunctionOf"/>
+        <NamedIndividual IRI="#Computer"/>
+        <NamedIndividual IRI="#Mouse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Mouse"/>
+        <NamedIndividual IRI="#Computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <NamedIndividual IRI="#Mouse"/>
+        <NamedIndividual IRI="#Mouse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFunctionOf"/>
+        <NamedIndividual IRI="#Mouse"/>
+        <NamedIndividual IRI="#Computer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFunctionOf"/>
+        <NamedIndividual IRI="#Mouse"/>
+        <NamedIndividual IRI="#Mouse"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object"/>
+        <NamedIndividual IRI="#Computer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Parameter"/>
+        <NamedIndividual IRI="#Computer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Property"/>
+        <NamedIndividual IRI="#Computer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Object"/>
+        <NamedIndividual IRI="#Mouse"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Parameter"/>
+        <NamedIndividual IRI="#Mouse"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Property"/>
+        <NamedIndividual IRI="#Mouse"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <ObjectProperty IRI="#isFunctionOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isObjectOf"/>
+        <ObjectProperty IRI="#isFunctionOf"/>
+    </SubObjectPropertyOf>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <Class IRI="#Field"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <Class IRI="#Product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <Class IRI="#proposal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Field"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#proposal"/>
+    </ObjectPropertyDomain>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Parameter"/>
+        <DataProperty IRI="#Object"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Parameter"/>
+        <DataProperty IRI="#Property"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Property"/>
+        <DataProperty IRI="#Object"/>
+    </SubDataPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

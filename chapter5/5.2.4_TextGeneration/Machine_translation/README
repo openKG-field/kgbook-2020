@@ -1,0 +1,11 @@
+train.py
+参考开源项目https://www.github.com/kyubyong/transformer，提供机器翻译的功能接口
+其中
+MultiUN.en-zh.en_test
+MultiUN.en-zh.en_train
+
+MultiUN.en-zh.zh_test
+MultiUN.en-zh.zh_train
+
+是中英文翻译的训练数据
+结果在 test_results.txt

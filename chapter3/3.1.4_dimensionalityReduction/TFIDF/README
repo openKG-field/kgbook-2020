@@ -1,0 +1,7 @@
+TFIDF.py
+
+
+tfidf 的计算程序
+word 是当前词
+document_len 文章长度（词的数量）
+documents 文章数据

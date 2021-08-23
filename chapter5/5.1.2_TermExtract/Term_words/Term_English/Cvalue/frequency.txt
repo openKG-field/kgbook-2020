@@ -1,0 +1,714 @@
+245
+-r-ethyl imidazoles| 1
+-tungsten structure| 1
+1,1-dihalo-1- methylsufonyl| 1
+1,1-dihalo-1- methylsufonyl methanesulfonamides| 1
+2- 3-hydroxyaminomethyl-s-triazol-4-yl benzophenones| 1
+2-alkoxycarbonylbenzenesulfonyl -glycineamides| 1
+2-aminoalkyl-1- pyridylcarbonylphenyl| 1
+2-aminoalkyl-1- pyridylcarbonylphenyl imidazole| 1
+3-hydroxyaminomethyl-s-triazol-4-yl benzophenones| 1
+4-arylaminopyridine herbicides| 1
+abrasion resistance| 1
+accelerator damper| 1
+accounting machine| 1
+acid diester| 1
+acid fumes| 1
+acid-acrylamide copolymers| 1
+acids containing| 1
+acoustic transmitter| 1
+acrylic acid-acrylamide copolymers| 1
+acting deburring| 1
+acting deburring elements| 1
+activating brake| 1
+activating brake shoes| 1
+acyl-acidic amino| 1
+acyl-acidic amino acid| 1
+adjustable guide| 1
+adjustable guide retainer| 1
+adjustable spanner| 1
+air culture| 1
+aircraft cargo| 1
+aircraft cargo hook| 1
+alkoxyalkyl groups| 1
+alkoxysilyl-substituted epoxidized urea| 1
+allowing alternate make| 1
+alternate make| 1
+amino acid| 1
+amino acid diester| 1
+aminoplast carrying| 1
+aminoplast carrying alkoxyalkyl| 1
+anti-skid control| 1
+anti-skid control arrangement| 1
+aromatic diamines| 1
+arrangement including| 1
+arrangement including plurality| 1
+asynchronous control| 1
+audio responsive light| 1
+automatic disconnect| 1
+automatic disconnect features| 1
+automatic holding| 1
+automatic holding circuit| 1
+automatic transmission| 1
+automobile compartment| 1
+automobile compartment door| 1
+automobile safety| 1
+ball retrieving| 1
+base powder| 1
+base powder coating| 1
+bearing materials| 1
+beta-lactam groups| 1
+bias field| 1
+bias field apparatus| 1
+bidirectional web| 1
+bidirectional web medium| 1
+biodegradable materials| 1
+bipolar electrodes| 1
+bit digital message| 1
+blank value| 1
+blank value storing| 1
+bottle carrier| 1
+brake shoes| 1
+bulk cargo| 1
+carbenicillin analogues| 1
+carbon structures| 1
+carbonaceous bodies| 1
+carbonate process| 1
+carbonate process solutions| 1
+carboxylic acids| 1
+carboxylic acids containing| 1
+cargo hook| 1
+cargo vessel| 1
+carrier station| 1
+carrier station terminal| 1
+carrying alkoxyalkyl| 1
+carrying alkoxyalkyl groups| 1
+carrying case| 1
+carrying sulphamoyl substituent| 1
+cartridge tape| 1
+cartridge tape player| 1
+cassette pump| 1
+cathode fingers| 1
+cationic species| 1
+cellulosic materials| 1
+ceramic material| 1
+cereal products| 1
+chain acyl-acidic amino| 1
+change-speed transmissions| 1
+changing apparatus| 1
+chlorinated phenols| 1
+chromatographic analysis| 1
+cigarette machine| 1
+cigarette machine magazines| 1
+cinnamate liquid| 1
+cinnamate liquid crystals| 1
+cleaning assembly| 1
+coating material| 1
+coating material containing| 1
+cobalt complexes| 1
+coil tap| 1
+cold light| 1
+cold light mirror| 1
+cold water-soluble gelatin| 1
+compartment door| 1
+compartment door weatherstrip| 1
+composite bearing| 1
+composite bearing materials| 1
+compositions comprising| 1
+compositions containing| 1
+compositions methods| 1
+containing beta-lactam groups| 1
+containing diphenylamine| 1
+containing diphenylamine group| 1
+containing gas| 1
+containing metallic fuel| 1
+containing siloxane| 1
+containing siloxane groups| 1
+continuous casting| 1
+continuous filament| 1
+continuous filament yarn| 1
+control arrangement| 1
+control arrangement including| 1
+controlled vehicle| 1
+controlled vehicle systems| 1
+controlling equipment| 1
+controlling gas| 1
+controlling gas flow| 1
+copper strike| 1
+copper strike bath| 1
+copy sheet| 1
+copy sheet stripping| 1
+correlation cell| 1
+cotton-tung oil| 1
+covering fabric| 1
+crack-resistant epoxy| 1
+crack-resistant epoxy resin| 1
+critical current superconductors| 1
+crosslinked polymers| 1
+crosslinked polymers containing| 1
+crystal spectrometer| 1
+curable crack-resistant epoxy| 1
+current electrolytic cell| 1
+current superconductors| 1
+cyclic-3,5-cytidylic acid| 1
+cylinder including| 1
+cylinder including plurality| 1
+cytokinin-3-nucleoside compounds| 1
+dampener means| 1
+dampening apparatus| 1
+damping form| 1
+damping form roller| 1
+data modem| 1
+deburring elements| 1
+demand heart| 1
+demand heart pacer| 1
+dense silica| 1
+density sensing| 1
+dental cements| 1
+dental filling| 1
+dental filling package| 1
+detection devices| 1
+detergent composition| 1
+detergent solvent| 1
+detergent solvent compositions| 1
+developer composition| 1
+development apparatus| 1
+dial pulse| 1
+dial pulse detector| 1
+dialkyldifluorosilane compounds| 1
+dichroic parameters| 1
+differential transmission| 1
+digital message| 1
+diode stack| 1
+diphenylamine group| 1
+diphenylamine group carrying| 1
+direct-station-selection intercommunication| 1
+disconnect features| 1
+dish antenna| 1
+disintegrating apparatus| 1
+disubstituted-p p'-phenyl cinnamate| 1
+division multiplexing| 1
+division multiplexing transmission| 1
+domain memory| 1
+door frame| 1
+door weatherstrip| 1
+dual master| 1
+dual master cylinder| 1
+durable-press textiles| 1
+dyestuffs containing| 1
+dyestuffs containing diphenylamine| 1
+electric buzzer| 1
+electric sparks| 1
+electrolytic moisture| 1
+electrolytic moisture cell| 1
+electrostatographic printing| 1
+electrostatographic printing machine| 1
+employing surfactants| 1
+engine dampener| 1
+engine dampener means| 1
+engine exhaust| 1
+engine exhaust nozzle| 1
+epoxidized urea| 1
+epoxidized urea derivatives| 1
+epoxy resin| 1
+evacuated chamber| 1
+evacuation air| 1
+evaporating zns| 1
+exhaust gas| 1
+exhaust gas recirculation| 1
+exhaust nozzle| 1
+expansion valve| 1
+explosive compositions| 1
+explosive compositions containing| 1
+extrusion process| 1
+fabrication thereof| 1
+face commutator| 1
+feeding apparatus| 1
+fiber lubricants| 1
+fiber stream| 1
+fiber stream feeder| 1
+fiber-loaded windshield| 1
+fiber-loaded windshield wiper| 1
+field apparatus| 1
+filament yarn| 1
+filled container| 1
+filled containers| 1
+filling package| 1
+film strip| 1
+film strip magazine| 1
+filter cartridge| 1
+filtering aerosol| 1
+fine gauge| 1
+fine gauge wires| 1
+fishing sinker| 1
+flame retardant polycarbonate| 1
+flammable vapors| 1
+flammable vapors containing| 1
+flat steel| 1
+flat steel product| 1
+flex abrasion| 1
+flex abrasion resistance| 1
+flow control| 1
+flow sample| 1
+flow separation| 1
+flowable material| 1
+flowable material dispenser| 1
+fluid impact| 1
+fluid impact gin| 1
+fluid-dynamic shock| 1
+fluid-dynamic shock ring| 1
+fluoridation apparatus| 1
+foaming machines| 1
+folding apparatus| 1
+foot shower| 1
+football game| 1
+football game structure| 1
+form roller| 1
+formation permeability| 1
+frameless safety| 1
+frameless safety water| 1
+free aromatic diamines| 1
+free conveyor| 1
+frequency-shift-keying acoustic transmitter| 1
+fuel injection| 1
+fuel particles| 1
+fuel production| 1
+fuel rod| 1
+fuel rod pellet| 1
+game structure| 1
+gas correlation| 1
+gas correlation cell| 1
+gas flow| 1
+gas flow sample| 1
+gas recirculation| 1
+gas recirculation flow| 1
+gas turbine| 1
+gas turbine engine| 1
+gauge wires| 1
+gel time| 1
+gelatin composition| 1
+gelled polymer| 1
+gelled polymer solution| 1
+generating electric sparks| 1
+generator circuit| 1
+generator power| 1
+generator power source| 1
+glass ceramic material| 1
+glass fiber| 1
+glass fiber stream| 1
+glass surface| 1
+glass-ceramic articles| 1
+grain milling| 1
+granular mgo-containing potassium| 1
+grip clutch| 1
+group carrying| 1
+guide retainer| 1
+hair clipper| 1
+halogenated hydrocarbons| 1
+hardening gelatin| 1
+hay stack| 1
+hay stack disintegrating| 1
+hd pigment| 1
+head cutting| 1
+hearing aid| 1
+heart pacer| 1
+heat-shrinkable plastic| 1
+heteroaromatic nitriles| 1
+high flex abrasion| 1
+high speed| 1
+high-strength low-alloy steel| 1
+holding circuit| 1
+hollow balls| 1
+hose clamp| 1
+hydraulic anti-skid control| 1
+hydraulic transmission| 1
+hydrido nitrile tris| 1
+hydrocarbon conversion| 1
+hydrodesulfurization process| 1
+hydrostatic extrusion| 1
+hydrostatic extrusion process| 1
+igniting flammable vapors| 1
+image reproducing| 1
+imidazole compounds| 1
+immunological tests| 1
+impact gin| 1
+improved atomization| 1
+improved ends| 1
+improved texture| 1
+in-line paper| 1
+in-line paper inserting| 1
+individual spot-lights| 1
+inflatable life| 1
+inflatable life preserver| 1
+injection nozzle| 1
+inorganic titanium| 1
+inorganic titanium coating| 1
+inserting apparatus| 1
+insulating coil| 1
+insulating coil tap| 1
+internal combustion engine| 1
+iron-containing mica| 1
+jet fuel| 1
+jet fuel production| 1
+jet nozzles| 1
+key telephone| 1
+lawn mower| 1
+layer sterile packaging| 1
+life preserver| 1
+lifting apparatus| 1
+light display| 1
+light mirror| 1
+limit stop| 1
+limit stop structure| 1
+line verification| 1
+linear dichroic| 1
+linear dichroic parameters| 1
+liquid crystals| 1
+liquid developer| 1
+liquid developer composition| 1
+liquid dispenser| 1
+lithographic plate| 1
+lithographic plate element| 1
+loading assembly| 1
+loading chute| 1
+loading-unloading station| 1
+long film| 1
+long film strip| 1
+low melting| 1
+low melting point| 1
+low-alloy steel| 1
+machine magazines| 1
+magnetic domain| 1
+magnetic domain memory| 1
+magnetic record| 1
+magnetic record medium| 1
+magnetic separation| 1
+making face| 1
+making face commutator| 1
+making peroxydisulfuric acid| 1
+manufacturing cold light| 1
+manufacturing flat steel| 1
+manufacturing glass| 1
+manufacturing phosphorus| 1
+manufacturing phosphorus oxychloride| 1
+manufacturing superconductors| 1
+master cylinder| 1
+master cylinder including| 1
+material containing| 1
+material dispenser| 1
+meat products| 1
+medical cassette| 1
+medical cassette pump| 1
+medium authentication| 1
+medium drive| 1
+melting point| 1
+melting point disubstituted-p| 1
+membrane filtration| 1
+metallic fuel| 1
+metallic fuel particles| 1
+metallic soaps| 1
+methylsufonyl methanesulfonamides| 1
+mgo-containing potassium| 1
+mgo-containing potassium salt| 1
+micron-size particulates| 1
+modifying cigarette| 1
+modifying cigarette machine| 1
+moisture cell| 1
+monoazo dyestuffs| 1
+monoazo dyestuffs containing| 1
+monochloroacetate esters| 1
+mounting plate| 1
+multi-container reserves| 1
+multiple games| 1
+multiple spark| 1
+multiple spark discharge| 1
+multiplexing transmission| 1
+n- pyridyl| 1
+n-long chain| 1
+nc machine| 1
+nc machine tools| 1
+nitrile tris| 1
+nitrogen oxides| 1
+novel cathode| 1
+novel cathode fingers| 1
+novel n-long chain| 1
+obtaining pair| 1
+offset printing machine| 1
+offset printing press| 1
+oil durable-press textiles| 1
+open-end spinning| 1
+open-end spinning unit| 1
+operating lamp| 1
+operational switch| 1
+operational switch states| 1
+optical scanning| 1
+organic biodegradable materials| 1
+orthodontic anchorage| 1
+orthogonal linear dichroic| 1
+oscillating jet| 1
+oscillating jet nozzles| 1
+oxidation-resistant coating| 1
+oxidizing nitrogen| 1
+oxidizing nitrogen oxides| 1
+p'-phenyl cinnamate| 1
+p'-phenyl cinnamate liquid| 1
+panel bed| 1
+paper inserting| 1
+paper inserting apparatus| 1
+paper tube| 1
+parking space| 1
+parking space barrier| 1
+particular mixtures| 1
+pellet loading| 1
+pellet loading assembly| 1
+penicillin salts| 1
+peroxydisulfuric acid| 1
+phosphite cobalt| 1
+phosphite cobalt complexes| 1
+phosphorus oxychloride| 1
+photoelectric marking| 1
+photographic layers| 1
+photometer circuitry| 1
+photopolymer lithographic plate| 1
+photopolymerizable compositions| 1
+photopolymerizable compositions comprising| 1
+piecing thread| 1
+piston combustion| 1
+piston combustion engine| 1
+planetary differential transmission| 1
+plastic hose| 1
+plastic hose clamp| 1
+plate element| 1
+point disubstituted-p| 1
+polyamide base| 1
+polyamide base powder| 1
+polycarbonate composition| 1
+polymer solution| 1
+polymeric articles| 1
+polymerizing lactams| 1
+polymers containing| 1
+polymers containing siloxane| 1
+porous alumina/silica| 1
+porous materials| 1
+potassium salt| 1
+potassium salt fertilizers| 1
+powder coating| 1
+powder coating material| 1
+power generator| 1
+power generator circuit| 1
+power source| 1
+power transmission| 1
+power transmission systems| 1
+precoating panel| 1
+precoating panel bed| 1
+preparing catalyst| 1
+preparing hollow balls| 1
+preparing polyphase| 1
+pressurizing pistons| 1
+printing press| 1
+process solutions| 1
+processing meat| 1
+processing meat products| 1
+producing cyclic-3,5-cytidylic acid| 1
+producing dialkyldifluorosilane| 1
+producing dialkyldifluorosilane compounds| 1
+producing fine gauge| 1
+producing special wheel| 1
+projector loading-unloading station| 1
+proportioning valves| 1
+protecting transistors| 1
+pulling tube| 1
+pulse detector| 1
+pulse generator| 1
+pulse generator power| 1
+pulse width| 1
+pulse width control| 1
+push capability| 1
+pyridylcarbonylphenyl imidazole| 1
+pyridylcarbonylphenyl imidazole compounds| 1
+quantitative chromatographic analysis| 1
+quinazoline derivatives| 1
+race game| 1
+ratchet wrench| 1
+reaction products| 1
+recirculation flow| 1
+recirculation flow control| 1
+record medium| 1
+record medium authentication| 1
+recuperator structures| 1
+reducing formation| 1
+reducing formation permeability| 1
+reflective surfaces| 1
+regulating devices| 1
+removing sulphuric acid| 1
+repeated bit| 1
+resilient container| 1
+resin compositions| 1
+resin compositions methods| 1
+resonance preventive| 1
+responsive light| 1
+responsive light display| 1
+resulting products| 1
+retardant polycarbonate| 1
+retardant polycarbonate composition| 1
+retractable safety| 1
+retractable safety belts| 1
+ringer power| 1
+ringer power generator| 1
+roasting implement| 1
+rocket engine| 1
+rocket engine exhaust| 1
+rod pellet| 1
+rod pellet loading| 1
+roll changing| 1
+roll changing apparatus| 1
+rolling mill| 1
+rotary piston| 1
+rotary piston combustion| 1
+rotary toothbrush| 1
+rotating gas| 1
+rotating gas correlation| 1
+safety belts| 1
+safety water| 1
+salt fertilizers| 1
+screening arrangement| 1
+sealing filled container| 1
+segmented mounting| 1
+segmented mounting plate| 1
+separating collecting| 1
+service functions| 1
+shaped carbonaceous bodies| 1
+sheet feeding| 1
+sheet feeding apparatus| 1
+sheet stripping| 1
+shifting change-speed transmissions| 1
+shifting linkage| 1
+shock ring| 1
+shrimp deheader| 1
+side outlet| 1
+signal identification| 1
+silicon bipolar electrodes| 1
+silicon carbide| 1
+siloxane groups| 1
+single frequency| 1
+ski race| 1
+ski race game| 1
+slide projector| 1
+smoke filter| 1
+soil improvement| 1
+soluble monoazo| 1
+soluble monoazo dyestuffs| 1
+solvent compositions| 1
+space barrier| 1
+spark discharge| 1
+special wheel| 1
+special wheel rims| 1
+speed in-line paper| 1
+spinning unit| 1
+spray dispenser| 1
+spring grip| 1
+spring grip clutch| 1
+stack disintegrating| 1
+stack disintegrating apparatus| 1
+station terminal| 1
+steel product| 1
+steel rods| 1
+sterile packaging| 1
+stop structure| 1
+stop structure allowing| 1
+storage devices| 1
+storing photometer| 1
+storing photometer circuitry| 1
+stream feeder| 1
+strike bath| 1
+strip magazine| 1
+structure allowing| 1
+styryl dyestuffs| 1
+subscriber carrier| 1
+subscriber carrier station| 1
+sulphamoyl substituent| 1
+sulphato substituent| 1
+sulphuric acid| 1
+sulphuric acid fumes| 1
+surgical operating| 1
+surgical operating lamp| 1
+switch assembly| 1
+switch states| 1
+switchable beamwidth| 1
+sympathetic ink| 1
+table soccer| 1
+table top| 1
+tablet formulation| 1
+tape player| 1
+telephone lines| 1
+tensioning means| 1
+textile fiber| 1
+textile fiber lubricants| 1
+texturing continuous filament| 1
+theophylline derivatives| 1
+thermostatic expansion| 1
+thermostatic expansion valve| 1
+thrust augmentation| 1
+time division| 1
+time division multiplexing| 1
+tio hd pigment| 1
+tissue irradiator| 1
+titanium coating| 1
+tobacco smoke| 1
+tobacco smoke filter| 1
+tool carrying| 1
+tool carrying case| 1
+transmission systems| 1
+triaryl phosphite| 1
+triaryl phosphite cobalt| 1
+tris triaryl phosphite| 1
+turbine engine| 1
+turkey call| 1
+urea derivatives| 1
+vacuum-sealed filled containers| 1
+value storing| 1
+value storing photometer| 1
+vapors containing| 1
+vapors containing gas| 1
+vehicle automatic transmission| 1
+vehicle systems| 1
+visor assembly| 1
+wafer basket| 1
+waste gases| 1
+water soluble monoazo| 1
+water trap| 1
+water-insoluble styryl| 1
+water-insoluble styryl dyestuffs| 1
+water-soluble gelatin| 1
+water-soluble gelatin composition| 1
+waterflooding employing| 1
+waterflooding employing surfactants| 1
+web medium| 1
+web medium drive| 1
+wheel rims| 1
+width control| 1
+wienie wiggler| 1
+wienie wiggler roasting| 1
+wiggler roasting| 1
+wiggler roasting implement| 1
+window regulator| 1
+windshield wiper| 1
+windshield wiper superstructure| 1
+wiper superstructure| 1
+x-ray crystal| 1
+x-ray crystal spectrometer| 1
+yarn detection| 1
+yarn detection devices| 1
+yarn tensioning| 1
+yarn tensioning means| 1
+acrylic acid| 2
+combustion engine| 2
+combustion engines| 2
+electrolytic cell| 2
+including plurality| 2
+internal combustion engines| 2
+machine tools| 2
+offset printing| 2
+preparation thereof| 2
+internal combustion| 3
+printing machine| 3

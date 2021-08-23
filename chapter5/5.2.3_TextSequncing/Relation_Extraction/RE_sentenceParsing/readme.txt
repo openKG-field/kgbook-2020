@@ -1,0 +1,3 @@
+RE_sentenceParsing通过语法规则进行关系抽取：
+ChineseParser基于句法分析进行三元组抽取，展示句法树结果图result.ps等并保存；
+triple_extraction通过对句法组分进行分析，实现三元组抽取，输入为triple_input.txt，结果在triple_result.txt中呈现。

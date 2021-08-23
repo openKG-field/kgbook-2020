@@ -1,0 +1,9 @@
+tf_idf.py
+
+计算字典的tfidf值 并返回 基于doc的结果
+
+text_similarity.py
+加载doc数据库，并按照输入目标排列
+
+weighted_Search.py
+根据目标结果计算doc之间相似度，并返回全部排序的结果

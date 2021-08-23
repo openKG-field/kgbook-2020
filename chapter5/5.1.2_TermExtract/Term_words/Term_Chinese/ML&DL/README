@@ -1,0 +1,5 @@
+DL_model.py
+
+NER作为一种服务，提供抽取结果。
+
+抽取结果在 NERresult.txt 中

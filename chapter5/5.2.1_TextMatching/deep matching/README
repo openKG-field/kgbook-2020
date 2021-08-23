@@ -1,0 +1,12 @@
+main.py
+
+1. 获取通用训练数据
+2. 调用DSSM 模型
+3. 输入 保准对比结果
+
+evluation of DSSM is :
+        f1_score = 0.8801202555430289
+        accuracy = 0.7859060402684563
+        recall = 1.0
+        log_loss = 7.394714591648819
+        auc = 0.5

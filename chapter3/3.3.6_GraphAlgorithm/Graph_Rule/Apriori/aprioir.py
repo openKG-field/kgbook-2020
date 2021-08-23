@@ -1,4 +1,12 @@
-#coding=utf-8
+# -*- encoding: utf-8 -*-
+"""
+@File    : aprioir.py
+@Time    : 2021/3/19 12:49
+@Author  : Ryt_tech
+@Email   : zhaohongyu2401@yeah.net
+@Software: PyCharm
+"""
+
 '''
 #请从最后的main方法开始看起
 Apriori算法，频繁项集算法
@@ -11,77 +19,13 @@ A 1,   B 2,   C 3,   D 4,   E 5
 min_support = 2  或  = 2/4
 '''
 
-from pymongo import MongoClient
 # import sys
 # reload(sys)
 # sys.setdefaultencoding('utf-8')
 
 step = 0
 result = []
-def wordMongo(tb):
-    host = '10.0.5.12'
-    port = 27017
-    passwd = 'mq2019'
-    dbName = 'mqpat'
-    user = 'mqpat-rw'
-    myTbNme = tb
-    conn = MongoClient(host,port)
-    db = conn[dbName]
-    db.authenticate(user, passwd)
-    collection = db[myTbNme]
-    return (conn,db,collection)
 
-
-#from elasticsearch import Elasticsearch
-
-#from elasticsearch import helpers
-#es = Elasticsearch(['10.0.5.18:9200'], headers={'content-type': 'application/json'})
-def test(tb):
-    host = '10.0.5.11'
-    port = 27017
-    passwd = '123456'
-    dbName = 'test'
-    user = 'lyj-rw'
-    myTbNme = tb
-    conn = MongoClient(host, port)
-    db = conn[dbName]
-    db.authenticate(user, passwd)
-    collection = db[myTbNme]
-    return (conn, db, collection)
-
-def v4Mongo(tb):
-    host = '10.0.5.12'
-    port = 27017
-    passwd = 'mq2019'
-    dbName = 'mqpatv4'
-    user = 'mqpatv4-rw'
-    myTbNme = tb
-    conn = MongoClient(host, port)
-    db = conn[dbName]
-    db.authenticate(user, passwd)
-    collection = db[myTbNme]
-    return (conn, db, collection)
-
-# (wconn ,wdb ,lcol) = v4Mongo('fieldsIndivideBase')
-# import  codecs
-#
-# funList = []
-# count = 0
-# for data in lcol.find({'userid': 'wangnan', 'fieldsName': '小红象'}, {'pubid': 1, 'title': 1, 'fieldWords': 1,'techWords':1,
-#                                                                     'techArea': 1,'funcWords':1}).batch_size(100):
-#     print ('true')
-#     dataList=[]
-#     if 'funcWords' not in data:
-#         continue
-#     for i in data['funcWords']:
-#         if i ==None or len(i)<2:
-#             continue
-#         dataList.append(i)
-#     funList.append(dataList)
-#     # for i in data['fieldWords']:
-#     #     count += 1
-#     #     funList.append(i)
-# print (len(funList))
 
 def item(dataset):      #求第一次扫描数据库后的 候选集，（它没法加入循环）
     c1 = []     #存放候选集元素
@@ -152,7 +96,14 @@ def Apriori(dataset, min_support = 2):
         F.append(fk)    #把新产生的候选集假如F
         sup_data.update(sup_k)  #字典更新，加入新得出的数据
         K+=1
-    return F, sup_data    #返回所有频繁项集， 以及存放频繁项集支持度的字典
+
+    filter_data = {}
+
+    for i in sup_data:
+        if len(i) == 1 : continue
+        filter_data[i] = sup_data[i]
+
+    return F, filter_data    #返回所有频繁项集， 以及存放频繁项集支持度的字典
 
 
 from jiebaCutPackage import jiebaInterface
@@ -163,98 +114,33 @@ f =codecs.open('RelateCorpus.txt','r',encoding='utf-8')
 wordAll=[]
 for i in f.readlines():
     wordsList = []
-    i=jiebaInterface.jiebaCut(i.encode('utf-8'))
+    i=jiebaInterface.jiebaCut(i.encode('utf-8').strip())
     i=i.split(',')
     for k  in i:
         if k.split('_')[0] ==None or len(k.split('_')[0]) <2:
             continue
-        print (k)
-        wordsList.append(k.split('_')[0])
+        w = k.split('_')[0]
+        if len(w) < 1 or w.isspace():
+            continue
+        wordsList.append(w)
 
     wordAll.append(wordsList)
 print(len(wordAll))
 import time
 
 
-# import json
-# from predictKG_link_modify_online import *
-# import codecs
-# import sys
-# reload(sys)
-# sys.setdefaultencoding('utf-8')
-# import xmlrpclib
-# #proxy = xmlrpclib.ServerProxy("http://119.18.207.122:30018")
-# proxy = xmlrpclib.ServerProxy("http://10.0.5.10:30018")
-# #a =  proxy.searchInfoByApp(person, app, area, school, regionTime, tech)
-# import time
-# # fieldsName = '通信用光器件'
-# # #通信用光器件-光源
-# # language = 'cn'
-# # a = proxy.evalueAlert(fieldsName)
-# s =time.time()
-# from mongoC import mongC
-# file = r'/home/pydep/wangnan/BERT-BiLSTM-CRF-NER-master/resultSentField-sat.txt'
-#
-# a = proxy.predict_online(file)
-#
-# e = time.time()
-#
-# print ('the cost time is',e-s)
-# print ('.........................................')
-# count =0
-# relationList=[]
-# relationOne=[]
-# for k,v in a.items():
-#     if v[0] =='' or len(v[0]) < 2:
-#         continue
-#     print (len(v[0]),'...',len(v[1][0]))
-#     relation = run(v[0],v[1])
-#     sentence =''.join(v[0])
-#
-#     print ('the relation is',relation)
-#
-#     if type(relation) =='int' or relation == -1 or relation =='-1':
-#         continue
-#     if relation==[] or len(str(relation))<2:
-#         continue
-#     if type(relation) !='int':
-#             relationList.append(relation)
-#
-#     count +=1
-# print (count)
-
 
 if __name__ == '__main__':
     relations=[]
-    # #funList=[['人工','智能'],['深度学习','智能','深度','智能'],['深度','智能','人工智能','智能'],['人工','深度智能','人工','智能'],['人工','人工智能']]
-    # for i in relationList:
-    #     relation=[]
-    #     for j in i:
-    #         j=j.split('_')
-    #         relation.append(j[0]+'_'+j[1])
-    #     relations.append(relation)
-    # print (len(relations))
+
 
     dataset = wordAll[:20]  #relations#wordAll #funList #wordAll[:50] #[[1, 3, 4], [2, 3, 5], [1, 2, 3, 5], [2, 5]]       #装入数据 二维列表
 
     s=time.time()
     F, sup_data = Apriori(dataset, min_support = 3)   #最小支持度设置为2
-    # f=codecs.open('resultRlation.txt','w',encoding='utf-8')
-    # for i in F[0]:
-    #     if len(i)==1:
-    #         f.write(str(i).decode("string_escape"))
-    #         f.write('\n')
-    #     else:
-    #         f.write(str(i).decode("string_escape"))
-    #         f.write('\n')
-    #
-    # f.write('.....................................................')
-    # for k,v in sup_data.iteritems():
-    #    f.write(str(k).decode("string_escape"))
-    #    f.write('\n')
-    # f.close()
+
     e=time.time()
     print ('the time is', e-s)
-    print("具有关联的商品是{}".format(F))   #带变量的字符串输出,必须为字典符号表示
+    print("具有关联的词是{}".format(F))   #带变量的字符串输出,必须为字典符号表示
     print('------------------')
     print("对应的支持度为{}".format(sup_data))

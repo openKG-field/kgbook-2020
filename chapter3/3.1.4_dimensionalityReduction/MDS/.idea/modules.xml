@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/downloads/Citation-Network-master/.idea/Citation-Network-master.iml" filepath="D:/downloads/Citation-Network-master/.idea/Citation-Network-master.iml" />
+      <module fileurl="file://D:/downloads/CreateNetFile-master/.idea/CreateNetFile-master.iml" filepath="D:/downloads/CreateNetFile-master/.idea/CreateNetFile-master.iml" />
+      <module fileurl="file://D:/downloads/Graph_Algorithm-master/.idea/Graph_Algorithm-master.iml" filepath="D:/downloads/Graph_Algorithm-master/.idea/Graph_Algorithm-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/LDAtest.iml" filepath="$PROJECT_DIR$/../.idea/LDAtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MDS.iml" filepath="$PROJECT_DIR$/.idea/MDS.iml" />
+      <module fileurl="file://D:/downloads/PyCTM-master/.idea/PyCTM-master.iml" filepath="D:/downloads/PyCTM-master/.idea/PyCTM-master.iml" />
+      <module fileurl="file://D:/brat-v1.3_Crunchy_Frog/data/bee/.idea/bee.iml" filepath="D:/brat-v1.3_Crunchy_Frog/data/bee/.idea/bee.iml" />
+      <module fileurl="file://D:/brat-v1.3_Crunchy_Frog/data/beeEng/.idea/beeEng.iml" filepath="D:/brat-v1.3_Crunchy_Frog/data/beeEng/.idea/beeEng.iml" />
+      <module fileurl="file://D:/downloads/citenet-master/.idea/citenet-master.iml" filepath="D:/downloads/citenet-master/.idea/citenet-master.iml" />
+      <module fileurl="file://D:/downloads/netviewP-master/.idea/netviewP-master.iml" filepath="D:/downloads/netviewP-master/.idea/netviewP-master.iml" />
+      <module fileurl="file://D:/downloads/python-pajek-master/.idea/python-pajek-master.iml" filepath="D:/downloads/python-pajek-master/.idea/python-pajek-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tool_shijin/server_clientEng/.idea/server_clientEng.iml" filepath="$PROJECT_DIR$/../tool_shijin/server_clientEng/.idea/server_clientEng.iml" />
+      <module fileurl="file://D:/downloads/wangnan/.idea/wangnan.iml" filepath="D:/downloads/wangnan/.idea/wangnan.iml" />
+    </modules>
+  </component>
+</project>

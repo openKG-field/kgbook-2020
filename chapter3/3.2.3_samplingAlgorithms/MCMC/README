@@ -1,0 +1,14 @@
+应用于MCMC的gibbs采样的实现方法。
+C:\Python36\python.exe D:/NLPdeepLearning/kgbook-2021/kgbook-2020/chapter3/3.2.3_samplingAlgorithms/MCMC/lda_gibbs.py
+mus and sigmas =  [5 5] [[1.  0.9]
+ [0.9 1. ]]
+init y =  0.6893243823124557
+after  [[4.26671994 3.96654779]
+ [4.31126214 4.42704591]
+ [4.43109286 4.44525113]
+ ...
+ [4.7085679  4.5268751 ]
+ [5.35324469 5.54908715]
+ [4.24788486 4.57458777]]
+
+Process finished with exit code 0

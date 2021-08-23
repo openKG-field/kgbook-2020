@@ -1,0 +1,1665 @@
+- source: 年  月  日至  日  纽约
+- expected: New York  May
+- got: New York <UNK> January <UNK>
+
+- source: 第二届 会议
+- expected: Draft decision submitted by the Netherlands
+- got: Second meeting
+
+- source: 第  条
+- expected: Rule  Election
+- got: Rule <UNK>
+
+- source: 第六 十届 会议
+- expected: Sixtieth session
+- got: Sixtieth session
+
+- source: 议程 项目
+- expected: Agenda item
+- got: Agenda
+
+- source: 两年 期 拟议 方案 预算
+- expected: Proposed programme budget for the biennium
+- got: Proposed programme budget for the biennium <UNK>
+
+- source: 这些 概算 拟议 增设  个 临时 员额
+- expected: It is proposed to establish  additional temporary posts
+- got: The office may wish to
+
+- source: 对 请求 提供 的 顾问费 也 应 推迟 审议
+- expected: Amounts requested for consultants should also be deferred
+- got: The working group also consider the following as appropriate
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 两年 期 拟议 方案 预算        第  款
+- expected: Proposed programme budget for the biennium  A Sect
+- got: Proposed programme budget for the biennium <UNK>
+
+- source: 秘书长 的 报告
+- expected: Report of the SecretaryGeneral A
+- got: Report of the SecretaryGeneral
+
+- source: 年 世界 首脑会议 的 成果 文件
+- expected: World Summit Outcome
+- got: Administrative and budgetary aspects of the financing of the
+
+- source: 大会 第        号 决议 和      号 决议
+- expected: General Assembly resolutions   and A
+- got: General Assembly resolution <UNK> A I
+
+- source: 
+- expected: Distr
+- got: <UNK>
+
+- source: 
+- expected: General  July
+- got: <UNK>
+
+- source: 
+- expected: Original English
+- got: <UNK>
+
+- source: 
+- expected: Preparatory Committee for the
+- got: <UNK>
+
+- source: 国际 化学品 管理 战略方针
+- expected: Development of a Strategic Approach
+- got: Development of a Strategic Approach
+
+- source: 制定 工作 筹备 委员会
+- expected: to International Chemicals Management
+- got: to International Chemicals Management
+
+- source: 第三届 会议
+- expected: Third session
+- got: Third session
+
+- source: 年  月    日  维也纳
+- expected: Vienna  September
+- got: Vienna <UNK> September <UNK>
+
+- source: 临时 议程  项目
+- expected: Item  of the provisional agenda
+- got: Item <UNK> of the provisional agenda
+
+- source: 进一步 制订 国际 化学品 管理 战略方针
+- expected: Further development of a strategic approach
+- got: Further development of a strategic approach
+
+- source: 秘书处 的 说明
+- expected: Note by the secretariat
+- got: Note by the Secretariat
+
+- source: 年  月
+- expected: June
+- got: Signed <UNK> N <UNK>
+
+- source: 背景
+- expected: Background
+- got: Background
+
+- source: 分析
+- expected: Analysis
+- got: Analysis of <UNK>
+
+- source: 是 综合性 和 雄心勃勃 的
+- expected: INFOCAP is comprehensive and ambitious
+- got: The integrated and property damage was important
+
+- source: 的 管理 结构 是 资源 密集 性 的
+- expected: The governance structure of INFOCAP is resource intensive
+- got: The structure of a strategy and
+
+- source: 建议  以 逐步 渐进 的 方法 加强 信息 交流
+- expected: Proposals a StepbyStep Approach to Strengthening Information Exchange
+- got: Recommendation <UNK> The recommendations for exchange of information
+
+- source: 第一阶段
+- expected: Stage
+- got: Organization of work
+
+- source: 第二阶段
+- expected: Stage
+- got: Phase II
+
+- source: 第三阶段
+- expected: Stage
+- got: <UNK> <UNK> <UNK>
+
+- source: 附件   相关 系统 概况
+- expected: Annex  Overview of Relevant Systems
+- got: Annex
+
+- source: 在            可 进入 该 数据库
+- expected: The database can be accessed at wwwwhointiomceventsen
+- got: <UNK> <UNK> in the economic social security
+
+- source: 经合组织 是 一个 合作伙伴
+- expected: The OECD is a collaborating partner
+- got: Partnership is a fundamental concern
+
+- source: 服务   国家 概况  重点  相关 需求 和 行动计划
+- expected: Service  National Profiles PrioritiesRelated Needs and Action Plans
+- got: National of them are of national and national security
+
+- source: 服务   可能 支持 的 来源
+- expected: Service  Sources of Potential Support
+- got: c Support to be expressed support
+
+- source: 这项 服务 可 发展 为 一个 网络 入口
+- expected: This service could be developed into a web portal
+- got: That <UNK> could also be promoted as follows
+
+- source: 服务   以往  现行 和 计划 的 项目
+- expected: Service  Past Ongoing and Planned Projects
+- got: <UNK> and <UNK> services
+
+- source: 服务   指导 和 培训 手册
+- expected: Service  Guidance and Training Manuals
+- got: iv Training of scientific technical and capacitybuilding
+
+- source: 迄今 超出 该 清单 的 参与率 很 低
+- expected: Participation todate beyond this list is low
+- got: The Cyprus is a long way since <UNK>
+
+- source: 服务   联络点
+- expected: Service  Points of Contact
+- got: c Services
+
+- source: 
+- expected: Annex  Comments by the INFOCAP Steering Group
+- got: <UNK>
+
+- source: 
+- expected: Comments on
+- got: <UNK>
+
+- source: 
+- expected: Submitted by the INFOCAP Steering Group
+- got: <UNK>
+
+- source: 
+- expected: July
+- got: <UNK>
+
+- source: 布隆迪 问题 特设 咨询 小组
+- expected: Ad Hoc Advisory Group on Burundi
+- got: The following documents are available at <UNK>
+
+- source: 经济 及 社会 理事会
+- expected: The Economic and Social Council
+- got: The Economic and Social Council
+
+- source: 几内亚比绍 问题 特设 咨询 小组
+- expected: Ad Hoc Advisory Group on GuineaBissau
+- got: Ad Hoc Advisory Group on Haiti
+
+- source: 经济 及 社会 理事会
+- expected: The Economic and Social Council
+- got: The Economic and Social Council
+
+- source: 公共行政 与 发展
+- expected: Public administration and development
+- got: <UNK> and <UNK>
+
+- source: 经济 及 社会 理事会
+- expected: The Economic and Social Council
+- got: The Economic and Social Council
+
+- source: 决定
+- expected: Decisions
+- got: Having reviewed international efforts to <UNK> the peace process
+
+- source: 发展 政策 委员会
+- expected: Committee for Development Policy
+- got: Committee for Development Policy
+
+- source: 联合国 人类 住 区 规划署 理事会
+- expected: Governing Council of the United Nations Human Settlements Programme
+- got: United Nations Environment Programme
+
+- source: 人口 与 发展 委员会
+- expected: Commission on Population and Development
+- got: Commission on Population and Development
+
+- source: 联合国 人类 住 区 规划署 理事会
+- expected: Governing Council of the United Nations Human Settlements Programme
+- got: United Nations Environment Programme
+
+- source: 选举
+- expected: Elections
+- got: Election
+
+- source: 统计 委员会
+- expected: Statistical Commission
+- got: Statistical Commission
+
+- source: 人口 与 发展 委员会
+- expected: Commission on Population and Development
+- got: Commission on Population and Development
+
+- source: 人权委员会
+- expected: Commission on Human Rights
+- got: The Commission on Human Rights
+
+- source: 妇女地位 委员会
+- expected: Commission on the Status of Women
+- got: Commission on the Status of Women
+
+- source: 麻醉药品 委员会
+- expected: Commission on Narcotic Drugs
+- got: The Commission on Narcotic Drugs
+
+- source: 预防犯罪 和 刑事 司法 委员会
+- expected: Commission on Crime Prevention and Criminal Justice
+- got: Five members from Western European and other States
+
+- source: 可 持续 发展 委员会
+- expected: Commission on Sustainable Development
+- got: Commission on Sustainable Development
+
+- source: 联合国儿童基金会 执行局
+- expected: Executive Board of the United Nations Children's Fund
+- got: Executive Board
+
+- source: 世界粮食计划署 执行局
+- expected: Executive Board of the World Food Programme
+- got: Executive Board
+
+- source: 理事会 决定
+- expected: The Council decided that
+- got: The Council
+
+- source: 提名
+- expected: Nominations
+- got: Agenda
+
+- source: 方案 和 协调 委员会
+- expected: Committee for Programme and Coordination
+- got: Committee for Programme and Coordination
+
+- source: 任命
+- expected: Appointments
+- got: e Appointment of members
+
+- source: 其他 选举
+- expected: Other elections
+- got: Other business
+
+- source: 经济  社会 和 文化 权利 委员会
+- expected: Committee on Economic Social and Cultural Rights
+- got: Committee on Economic Social and Cultural Rights
+
+- source: 联合国 人口 奖 委员会
+- expected: Committee for the United Nations Population Award
+- got: <UNK> United Nations Population
+
+- source: 通过 议程 和 其他 组织 事项
+- expected: Adoption of the agenda and other organizational matters
+- got: Adoption of the agenda and other organizational matters
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 高级别 部分
+- expected: Highlevel segment
+- got: <UNK> for the agenda
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 年 世界 经济 和 社会 概览   第一 部分  第一章
+- expected: World Economic and Social Survey  part one chap
+- got: Overview of the activities of the World Summit Outcome
+
+- source: 联合国 促进 国际 发展 合作 的 业务 活动
+- expected: development cooperation
+- got: Item <UNK> of the provisional agenda
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 发展中国家 间 的 经济 和 技术 合作
+- expected: c Economic and technical cooperation among developing countries
+- got: The economic and social wellbeing of each party
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 协调 部分
+- expected: Coordination segment
+- got: Coordination
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 人道主义 事务 部分
+- expected: Humanitarian affairs segment
+- got: Humanitarian affairs
+
+- source: 特别 经济  人道主义 和 救灾 援助
+- expected: Special economic humanitarian and disaster relief assistance
+- got: Special economic and social security
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 常务 部分
+- expected: General segment
+- got: <UNK> <UNK>
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 协调  方案 和 其他 问题
+- expected: Coordination programme and other questions
+- got: Coordination and other Programme issues
+
+- source: 各 协调 机关 的 报告
+- expected: a Reports of coordination bodies
+- got: C Meeting with States parties
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 两年 期 拟议 方案 预算
+- expected: b Proposed programme budget for the biennium
+- got: Proposed programme budget for the biennium <UNK>
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 信息学 领域 的 国际 合作
+- expected: c International cooperation in the field of informatics
+- got: H International cooperation
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 长期 支助 海地 方案
+- expected: d Longterm programme of support for Haiti
+- got: <UNK> for the longterm development of Haiti
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 信息 和 通信 技术 工作队
+- expected: f Information and Communication Technologies Task Force
+- got: B <UNK> and Communication Technologies to Growth
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 联合国 艾滋病毒  艾滋病 联合 规划署
+- expected: g Joint United Nations Programme on HIVAIDS
+- got: United Nations Population Fund
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 区域合作
+- expected: Regional cooperation
+- got: Regional cooperation
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 秘书长 关于 区域合作 的 报告  理事会 第    号 决定
+- expected: Report of the SecretaryGeneral on regional cooperation Council decision
+- got: Report of the SecretaryGeneral on Disarmament
+
+- source: 年 欧洲 经济 概览 摘要
+- expected: Summary of the economic survey of Europe
+- got: Overview of the global economy
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 非政府 组织
+- expected: Nongovernmental organizations
+- got: Nongovernmental organizations
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 经济 和 环境 问题
+- expected: Economic and environmental questions
+- got: Agenda items <UNK> and <UNK>
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 可 持续 发展
+- expected: a Sustainable development
+- got: Sustainable Development
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 科学 和 技术 促进 发展
+- expected: b Science and technology for development
+- got: Science and technology for development
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 统计
+- expected: c Statistics
+- got: Statistics
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 人类 住 区
+- expected: d Human settlements
+- got: Human Settlements Financing
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 环境
+- expected: e Environment
+- got: Environment
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 人口 与 发展
+- expected: f Population and development
+- got: <UNK> and <UNK>
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 公共行政 和 发展
+- expected: g Public administration and development
+- got: g Public administration and development
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 国际 税务 合作
+- expected: h International cooperation in tax matters
+- got: International cooperation in the peaceful uses of outer space
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 联合国 森林 问题 论坛
+- expected: i United Nations Forum on Forests
+- got: United Nations Forum on Forests
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 制图
+- expected: k Cartography
+- got: <UNK> <UNK> <UNK>
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 妇女 与 发展
+- expected: l Women and development
+- got: Women and development
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 运输 危险 货物
+- expected: m Transport of dangerous goods
+- got: Item <UNK> of the provisional agenda
+
+- source: 社会 与 人权 问题
+- expected: Social and human rights questions
+- got: Economic and environmental questions
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 提高 妇女地位
+- expected: a Advancement of women
+- got: Advancement of women
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 社会 发展
+- expected: b Social development
+- got: C Social Development
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 预防犯罪 和 刑事 司法
+- expected: c Crime prevention and criminal justice
+- got: Agenda item <UNK>
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 麻醉药品
+- expected: d Narcotic drugs
+- got: The Commission on Narcotic Drugs
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 联合国 难民 事务 高级专员
+- expected: e United Nations High Commissioner for Refugees
+- got: United Nations Development Programme
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 没有 要求 事先 提供 文件
+- expected: No request for advance documentation
+- got: No major information are provided
+
+- source: 人权
+- expected: g Human rights
+- got: Human rights
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 土著 问题 常设 论坛
+- expected: h Permanent Forum on Indigenous Issues
+- got: Permanent Forum on Indigenous Issues
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 年 实质性 会议
+- expected: Substantive session of
+- got: Substantive session of <UNK>
+
+- source: 高级别 部分
+- expected: Highlevel segment
+- got: <UNK> for the agenda
+
+- source: 主题 待定
+- expected: Themethemes to be selected
+- got: i
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 年 世界 经济 和 社会 概览
+- expected: World Economic and Social Survey
+- got: Overview of is Economic and social dialogue
+
+- source: 主题 待定
+- expected: Themethemes to be selected
+- got: i
+
+- source: 大会 政策 建议 的 后续 行动
+- expected: Followup to policy recommendations of the General Assembly
+- got: Followup to the outcome of the Millennium Summit
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 协调 部分
+- expected: C Coordination segment
+- got: Coordination
+
+- source: 主题 待定
+- expected: Themethemes to be selected
+- got: i
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 人道主义 事务 部分
+- expected: Humanitarian affairs segment
+- got: Humanitarian affairs
+
+- source: 特别 经济  人道主义 和 救灾 援助
+- expected: Special economic humanitarian and disaster relief assistance
+- got: Special economic and social security
+
+- source: 常务 部分
+- expected: E General segment
+- got: <UNK> <UNK>
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 协调  方案 和 其他 问题
+- expected: Coordination programme and other questions
+- got: Coordination and other Programme issues
+
+- source: 各 协调 机关 的 报告
+- expected: Reports of coordination bodies
+- got: C Meeting with States parties
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 两年 期 拟议 战略 框架
+- expected: Proposed strategic framework for the biennium
+- got: Proposed programme budget for the biennium <UNK>
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 烟草 或 健康
+- expected: Tobacco or health
+- got: <UNK> or
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 区域合作
+- expected: Regional cooperation
+- got: Regional cooperation
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 秘书长 关于 区域合作 的 报告  理事会 第    号 决定
+- expected: Report of the SecretaryGeneral on regional cooperation Council decision
+- got: Report of the SecretaryGeneral on Disarmament
+
+- source: 非政府 组织
+- expected: Nongovernmental organizations
+- got: Nongovernmental organizations
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 经济 和 环境 问题
+- expected: Economic and environmental questions
+- got: Agenda items <UNK> and <UNK>
+
+- source: 可 持续 发展
+- expected: Sustainable development
+- got: Sustainable Development
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 科学技术 促进 发展
+- expected: Science and technology for development
+- got: World Bank <UNK> and Development
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 联合国 森林 论坛
+- expected: United Nations Forum on Forests
+- got: United Nations Forum on Forests
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 人口 与 发展
+- expected: Population and development
+- got: <UNK> and <UNK>
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 公共行政 和 发展
+- expected: Public administration and development
+- got: g Public administration and development
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 统计
+- expected: Statistics
+- got: Statistics
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 环境
+- expected: Environment
+- got: Environment
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 人类 住 区
+- expected: Human settlements
+- got: Human Settlements Financing
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 制图
+- expected: Cartography
+- got: <UNK> <UNK> <UNK>
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 社会 与 人权 问题
+- expected: Social and human rights questions
+- got: Economic and environmental questions
+
+- source: 提高 妇女地位
+- expected: Advancement of women
+- got: Advancement of women
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 社会 发展
+- expected: Social development
+- got: C Social Development
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 预防犯罪 和 刑事 司法
+- expected: Crime prevention and criminal justice
+- got: Agenda item <UNK>
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 麻醉药品
+- expected: Narcotic drugs
+- got: The Commission on Narcotic Drugs
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 联合国 难民 事务 高级专员
+- expected: United Nations High Commissioner for Refugees
+- got: United Nations Development Programme
+
+- source: 人权
+- expected: Human rights
+- got: Human rights
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 土著 问题 常设 论坛
+- expected: Permanent Forum on Indigenous Issues
+- got: Permanent Forum on Indigenous Issues
+
+- source: 文件
+- expected: Documentation
+- got: Documentation
+
+- source: 全面 咨商 地位
+- expected: General consultative status
+- got: <UNK> Africa <UNK>
+
+- source: 团紧 发 协调会
+- expected: Coordination SuD
+- got: <UNK> to this issue
+
+- source: 联合 城市 和 地方 政府 组织
+- expected: United Cities and Local Governments
+- got: The Joint Inspection Unit and joint property
+
+- source: 专门 咨商 地位
+- expected: Special consultative status
+- got: Special consultative status
+
+- source: 反 饥饿 行动 组织
+- expected: Action contre la faim
+- got: <UNK> Action Network <UNK>
+
+- source: 青春期 健康 和 信息 项目
+- expected: Adolescent Health and Information Projects
+- got: C Information and communication technology
+
+- source: 青年 促进会
+- expected: Advocates for Youth
+- got: Youth
+
+- source: 非洲 工商 圆桌会议
+- expected: African Business Round Table
+- got: The African Union
+
+- source: 非洲 社区资源 中心
+- expected: African Community Resource Center
+- got: <UNK> Center of African States
+
+- source: 援非社
+- expected: Africare
+- got: <UNK> <UNK> <UNK>
+
+- source: 艾伯特  施魏 策尔 研究所
+- expected: Albert Schweitzer Institute
+- got: <UNK> Institute of the <UNK> <UNK> <UNK>
+
+- source: 阿留申 人 国际协会
+- expected: Aleut International Association
+- got: C <UNK> <UNK> for Africa
+
+- source: 阿拉伯 墨西哥人 工商会
+- expected: Arab Mexican Chamber of Industry and Commerce
+- got: Summit resolution <UNK> adopted on <UNK> March <UNK>
+
+- source: 亚太 网络信息中心
+- expected: Asia Pacific Network Information Centre
+- got: <UNK>
+
+- source: 全球 合作 协会
+- expected: Association pour la collaboration globale
+- got: International Cooperation Cooperation Division
+
+- source: 澳大利亚 生殖 健康 联盟
+- expected: Australian Reproductive Health Alliance
+- got: Australia <UNK> Health
+
+- source: 飞行 无国界  协会
+- expected: Aviation sans frontières
+- got: United Nations Educational Scientific and Cultural Organization
+
+- source: 积极 自由 协会
+- expected: Be Active Be Emancipated
+- got: Freedom of movement
+
+- source: 中东欧 减少 损害 网络
+- expected: Central and Eastern European Harm Reduction Network
+- got: The reduction related mainly
+
+- source: 农村 和 工业 发展 研究 中心
+- expected: Centre for Research in Rural and Industrial Development
+- got: Rural and Development Research Centre
+
+- source: 妇女 整体 发展 研究 中心
+- expected: Centro de Estudio y Formacion Integral de la Mujer
+- got: Women's Development Centre
+
+- source: 特殊 疾病 慈善 基金会
+- expected: Charity Foundation for Special Diseases
+- got: The <UNK> Foundation for Advancement in
+
+- source: 中国 军控 与 裁军 协会
+- expected: China Arms Control and Disarmament Association
+- got: China United Nations Association China and China
+
+- source: 中国 计划生育 协会
+- expected: China Family Planning Association
+- got: China Association <UNK>
+
+- source: 基础 科技 协会
+- expected: Associazione Tecnico Scientifica di Base
+- got: d Commodities
+
+- source: 对话 基金会
+- expected: Dui Hua Foundation
+- got: Dialogue means that
+
+- source: 纳入 两性 平等 观点
+- expected: Engender
+- got: The <UNK> gender equality development and
+
+- source: 欧洲 艾滋病 防治 集团
+- expected: European AIDS Treatment Group
+- got: International Council on <UNK>
+
+- source: 美国 崇尚 生活 女权 活动家 协会
+- expected: Feminists for Life of America
+- got: United Nations <UNK> Association <UNK> Association <UNK>
+
+- source: 区域 持续 发展 欧洲 基金会
+- expected: Fondation européenne pour le développement durable des régions
+- got: Regional Centre on Sustainable Development
+
+- source: 奋起 基金会
+- expected: Fondation Surgir
+- got: The <UNK> Foundation
+
+- source: 难民 教育 信托 基金会
+- expected: Foundation for the Refugee Education Trust
+- got: An an Protection of Canada
+
+- source: 全球 青年 行动 网络
+- expected: Global Youth Action Network
+- got: Global Action Plan for <UNK>
+
+- source: 怀柔 委员会
+- expected: Huairou Commission
+- got: <UNK>
+
+- source: 加拿大 人道主义 基金会
+- expected: Humanitarian Foundation of Canada
+- got: Canada humanitarian assistance
+
+- source: 国际 变革 举措 协会
+- expected: International Association of Initiatives of Change
+- got: International Movement of <UNK> of <UNK>
+
+- source: 国际 科学 园 协会
+- expected: International Association of Science Parks
+- got: <UNK> International
+
+- source: 国际 会 所 发展 中心
+- expected: International Center for Clubhouse Development
+- got: The International Centre for development
+
+- source: 国际 会议 志愿人员 组织
+- expected: International Conference Volunteers
+- got: <UNK> on International Meeting
+
+- source: 企业 国际 发展 组织  印度
+- expected: International Development Enterprises India
+- got: <UNK> International Organization for Development
+
+- source: 国际 司法 团
+- expected: International Justice Mission
+- got: International Legal Subcommittee
+
+- source: 伊朗 高级 研究 中心
+- expected: Iranian Elite Research Center
+- got: Committee for the Coordination of the Environment
+
+- source: 伊斯坦布尔 国际 兄弟 和 团结 协会
+- expected: Istanbul International Brotherhood and Solidarity Association
+- got: International Federation of <UNK> and Peoples
+
+- source: 建立 一个 理想 的 肯尼亚 联盟
+- expected: Kenya Tuitakayo
+- got: Establishment of a global environment
+
+- source: 韩国 地方  世纪 议程 理事会
+- expected: Korean Council for Local Agenda s
+- got: The agenda was adopted by the Council
+
+- source: 韩国 援助 世界 基金会
+- expected: Korean Foundation for World Aid
+- got: World assistance Fund for Nature
+
+- source: 科威特 信息技术 学会
+- expected: Kuwait Information Technology Society
+- got: c Information and communication technology
+
+- source: 地雷 幸存者 网络
+- expected: Landmine Survivors Network
+- got: <UNK> of Africa
+
+- source: 社会 和 文化 发展 协会
+- expected: Mbororo Social and Cultural Development Association
+- got: b Social and Cultural Rights Education
+
+- source: 全国 土著人 林业 协会
+- expected: National Aboriginal Forestry Association
+- got: National Council for <UNK>
+
+- source: 全国 堕胎 联合会
+- expected: National Abortion Federation
+- got: National <UNK> Union
+
+- source: 马耳他 全国 妇女 理事会
+- expected: National Council of Women of Malta
+- got: Asian Women's Network
+
+- source: 全国 妇女 正义 联盟
+- expected: National Women's Justice Coalition
+- got: <UNK> members threeyear term
+
+- source: 加拿大 土著 妇女 协会
+- expected: Native Women's Association of Canada
+- got: Canada Association of indigenous peoples
+
+- source: 新西兰 计划生育 协会
+- expected: New Zealand Family Planning Association
+- got: <UNK> and New Zealand
+
+- source: 尼日利亚 顺势 疗法 研究所
+- expected: Nigerian Institute of Homeopathy
+- got: <UNK> The <UNK> Institute of Nigeria
+
+- source: 非暴力 国际
+- expected: Nonviolence International
+- got: <UNK> of international organizations
+
+- source: 保护 布隆迪 环境 组织
+- expected: Organisation de défense de l'environnement au Burundi
+- got: Protecting the environment
+
+- source: 产 前 教育 协会 世界 组织
+- expected: Organisation mondiale des associations pour l'éducation prénatale
+- got: World Organization for <UNK> Education
+
+- source: 澳大利亚 残疾人 协会
+- expected: People with Disability Australia
+- got: Australia Association of Australia
+
+- source: 罗 代尔 研究所
+- expected: Rodale Institute
+- got: <UNK> Institute of Maritime Law Department
+
+- source: 沙维 里斯 社会 发展 基金会
+- expected: Sawiris Foundation for Social Development
+- got: The Social Forum
+
+- source: 希望 迹象 社
+- expected: Sign of Hope
+- got: <UNK> the establishment of a National against as follows
+
+- source: 援助 社
+- expected: Simply Help
+- got: <UNK> assistance
+
+- source: 树木 之友
+- expected: Tarumitra
+- got: c International trade and development
+
+- source: 生生不息 的 地球  组织
+- expected: Terre Vivante
+- got: <UNK> to the Montreal Protocol
+
+- source: 土耳其 保护 处境 不利 儿童 基金会
+- expected: Turkish Foundation for Children in need of Protection
+- got: Turkey for Child Protection of <UNK>
+
+- source: 道德 基金会
+- expected: Virtue Foundation
+- got: The UNICEF
+
+- source: 沃森 国际 关系 研究所
+- expected: Watson Institute for International Studies
+- got: <UNK> International
+
+- source: 妇女 学习 权利  发展 与 和平 伙伴 组织
+- expected: Women's Learning Partnership for Rights Development and Peace
+- got: The right to development and peace
+
+- source: 亚得  萨拉
+- expected: Yad Sarah
+- got: Mr Ibrahim Ibrahim Civil Society
+
+- source: 泽 纳布 支持 妇女 参与 发展 协会
+- expected: Zenab for Women in Development
+- got: <UNK> <UNK> participation in development
+
+- source: 名册 地位
+- expected: Roster
+- got: <UNK> status
+
+- source: 为 保护环境 而 行动
+- expected: Agir en faveur de l'environnement
+- got: Protecting and the environment
+
+- source: 阿拉伯 非政府 组织 发展 网络
+- expected: Arab NGO Network for Development
+- got: Summit resolution <UNK> adopted on <UNK> March <UNK>
+
+- source: 哥伦比亚 环境 权利 专门 律师协会
+- expected: Colegio de Abogados Especialistas en Derecho Ambiental de Colombia
+- got: Special consultative status and other source of Colombia
+
+- source: 主席团 理事会
+- expected: Council of Bureaux
+- got: Draft resolution
+
+- source: 生态 圣灵 基金会
+- expected: Ecospirituality Foundation
+- got: World Bank <UNK> Corporate Governance <UNK>
+
+- source: 欧洲 平台
+- expected: Europlatforms
+- got: International Europe
+
+- source: 印度 救济 委员会 福音 联谊会
+- expected: Evangelical Fellowship of India Commission on Relief
+- got: The India is a <UNK> of the Peacebuilding Commission
+
+- source: 全球 测图 国际 指导 委员会
+- expected: International Steering Committee for Global Mapping
+- got: Global Environment Facility
+
+- source: 劳工 界 战略 中心
+- expected: LaborCommunity Strategy Center
+- got: <UNK> and strategies
+
+- source: 天狼星 全球 动物 慈善 信托 基金会
+- expected: Sirius Global Animal Organisation Charitable Trust
+- got: International Federation of <UNK>
+
+- source: 德爱 基金会
+- expected: Tearfund
+- got: The <UNK> Foundation
+
+- source: 世界 氯 理事会
+- expected: World Chlorine Council
+- got: World Trade Organization
+
+- source: 新 人类 运动
+- expected: New Humanity
+- got: New York and Human Rights
+
+- source: 刑事 司法 学会     年
+- expected: Academy of Criminal Justice Sciences
+- got: Criminal Investigation Department
+
+- source: 东正教 以色列 世界 组织
+- expected: Agudas Israel World Organization
+- got: Israel
+
+- source: 阿拉伯 妇女 联盟
+- expected: Alliance for Arab Women
+- got: Summit resolution <UNK> adopted on <UNK> March <UNK>
+
+- source: 美国 心理学 协会
+- expected: American Psychological Association
+- got: United States of America
+
+- source: 亚洲  日本 妇女 资源 中心
+- expected: AsiaJapan Women's Resource Centre
+- got: The Asian Centre for Women's Affairs
+
+- source: 亚洲 妇女 参与 合作社 发展 论坛
+- expected: Asian Women in Cooperative Development
+- got: International Association for the Defense of Religious <UNK>
+
+- source: 国际 服务 志愿者 协会
+- expected: Association de volontaires pour le service international
+- got: International <UNK> Transport and Division
+
+- source: 慈善 兄弟会     年
+- expected: Brothers of Charity
+- got: Ms <UNK> <UNK> Argentina
+
+- source: 国际 地球科学 信息网 联合会     年
+- expected: Consortium for International Earth Science Information Network
+- got: International <UNK> and <UNK> <UNK> <UNK>
+
+- source: 促进 妇女 全球 领导 地位 中心
+- expected: Center for Women's Global Leadership
+- got: Promotion of a global partnership for <UNK>
+
+- source: 中国残疾人联合会     年
+- expected: China Disabled Person's Federation
+- got: <UNK> <UNK>
+
+- source: 中国 移民 服务社     年
+- expected: Chinese Immigrants Services
+- got: China <UNK> <UNK>
+
+- source: 克罗地亚 世界 大会     年
+- expected: Croatian World Congress
+- got: Croatia <UNK> January <UNK>
+
+- source: 德国 世界 人口 基金会     年
+- expected: Deutsche Stiftung Weltbevoelkerung German Foundation for World Population
+- got: <UNK> World Health Organization <UNK>
+
+- source: 地 球队
+- expected: Earthcorps
+- got: Address
+
+- source: 地球 正义 组织     年
+- expected: Earthjustice
+- got: <UNK>
+
+- source: 埃及 艾滋病 协会
+- expected: Egyptian AIDS Society
+- got: Member of the Association
+
+- source: 欧洲  年 组织     年
+- expected: Europe
+- got: International Labour Organization
+
+- source: 欧洲 摩托车 手 协会 联合会
+- expected: Federation of European Motorcyclists' Associations
+- got: International Council of <UNK> <UNK>
+
+- source: 乔瓦尼 和弗兰 切斯 卡  法尔科内 基金会
+- expected: Fondazione Giovanni e Francesca Falcone
+- got: The <UNK> Foundation for staff <UNK> <UNK>
+
+- source: 工会 总 联合会     年
+- expected: General Confederation of Trade Unions
+- got: World Trade Organization for <UNK>
+
+- source: 香港 妇女 联合会
+- expected: Hong Kong Federation of Women
+- got: <UNK> <UNK> Department of Women
+
+- source: 寰宇 希望 组织
+- expected: Hope Worldwide
+- got: <UNK> Organization for Economic Cooperation and Development
+
+- source: 人类 哺乳 中心
+- expected: Human Lactation Center
+- got: Human Rights Committee
+
+- source: 美国 人 道 协会
+- expected: Humane Society of the United States
+- got: United States of America
+
+- source: 国际 宇宙 航行 联合会
+- expected: International Astronautical Federation
+- got: International <UNK> Industry Association <UNK>
+
+- source: 国际 天主教 移徙 委员会
+- expected: International Catholic Migration Commission
+- got: Committee on International Affairs and Cultural Rights
+
+- source: 国际 社会福利 理事会
+- expected: International Council on Social Welfare
+- got: <UNK> International Council of Environmental Law and
+
+- source: 国际 重 听者 联合会
+- expected: International Federation of Hard of Hearing People
+- got: International <UNK> Elimination Network
+
+- source: 国际 和睦 团契     年
+- expected: International Fellowship of Reconciliation
+- got: International Year of the <UNK>
+
+- source: 国际 艾滋病毒  艾滋病 联盟
+- expected: International HIVAIDS Alliance
+- got: International Maritime Organization
+
+- source: 国际 旅馆 和 饭店 协会     年
+- expected: International Hotel and Restaurant Association
+- got: International <UNK> and the Institute of the <UNK>
+
+- source: 国际 应用 系统分析 研究所     年
+- expected: International Institute for Applied Systems Analysis
+- got: International <UNK> Department of International Civil Affairs and
+
+- source: 国际 哺乳 顾问 协会
+- expected: International Lactation Consultant Association
+- got: <UNK> Union
+
+- source: 第四 世界 扶贫 国际 运动     年
+- expected: International Movement ATD Fourth World
+- got: Fourth World Health Organization of Human Rights <UNK>
+
+- source: 圣母 进殿 派 修女 国际协会
+- expected: International Presentation Association of the Sisters of the Presentation
+- got: <UNK> <UNK>
+
+- source: 国际 农村 住房 协会
+- expected: International Rural Housing Association
+- got: Rural international Association
+
+- source: 国际 项目 援助 方案 社     年
+- expected: International Union of Psychological Science
+- got: <UNK> <UNK> <UNK> <UNK> <UNK> <UNK>
+
+- source: 日本 计划生育 国际 合作 组织
+- expected: Japanese Organization for International Cooperation in Family Planning
+- got: Japan cooperation in the fight against transnational organized crime
+
+- source: 黎巴嫩 残疾人 福利 协会
+- expected: Lebanese Welfare Association for the Handicapped
+- got: Lebanon Association of Human Rights
+
+- source: 国际 自由 协会     年
+- expected: Liberty International
+- got: International Association of Jewish Organizations
+
+- source: 拯救 生命 促进 救济 和 发展 组织     年
+- expected: Life For Relief and Development
+- got: World Health Organization for development and a
+
+- source: 世界 路德会 联合会
+- expected: Lutheran World Federation
+- got: World <UNK> Fund for Nature
+
+- source: 马兰 戈 普洛斯 人权 基金会     年
+- expected: Marangopoulos Foundation for Human Rights
+- got: The <UNK> Foundation for Human Rights Education
+
+- source: 国际 中心
+- expected: Match International Centre
+- got: International Committee for the Rights and
+
+- source: 明尼苏达 人权 宣传 会
+- expected: Minnesota Advocates for Human Rights
+- got: <UNK> <UNK> AND <UNK> <UNK>
+
+- source: 大不列颠 国家 妇女 委员会
+- expected: National Council of Women in Great Britain
+- got: The Committee shall conduct its activities as follows
+
+- source: 尼日利亚 研究 和 文件 中心     年
+- expected: Nigerian Centre for Research and Documentation
+- got: <UNK> and <UNK> Research Institute of China
+
+- source: 基金会  提供 心脏 基金会      年
+- expected: PagAalay Ng Puso Foundation Offering of the Heart Foundation
+- got: The Foundation for <UNK> <UNK>
+
+- source: 泛美 泛非 协会     年
+- expected: PanAmericanPanAfrican Association
+- got: <UNK> of the <UNK> Military Observer <UNK>
+
+- source: 议员 全球 行动 联盟     年
+- expected: Parliamentarians for Global Action
+- got: <UNK> Action Network <UNK>
+
+- source: 雷丁 家庭 健康 教育 和 促进 研究所
+- expected: Radin Institute for Family Health Education and Promotion
+- got: <UNK> education and family education
+
+- source: 康复 集团
+- expected: Rehab Group
+- got: Physical Rehabilitation
+
+- source: 多种 来源 基金会     年
+- expected: Several Sources Foundation
+- got: In <UNK> the Republic of <UNK>
+
+- source: 市民 外交 中心     年
+- expected: Shimin Gaikou Centre
+- got: <UNK> and <UNK>
+
+- source: 美州 慈善 修女 会     年
+- expected: Sisters of Mercy of the Americas
+- got: The members threeyear term
+
+- source: 国际 太阳能 炊具 组织
+- expected: Solar Cookers International
+- got: <UNK> International Organization of la Francophonie <UNK>
+
+- source: 国际  儿童村     年
+- expected: SOS Kinderdorf International
+- got: International Year of the <UNK>
+
+- source: 谅解 寺     年
+- expected: Temple of Understanding
+- got: Memorandum of understanding and
+
+- source: 跨国 激进党     年
+- expected: Transnational Radical Party
+- got: Transnational Crime Prevention
+
+- source: 俄罗斯 联合国 协会     年
+- expected: United Nations Association of Russia
+- got: United Nations University
+
+- source: 水 环境 联合会     年
+- expected: Water Environment Federation
+- got: <UNK> Environment <UNK>
+
+- source: 国际 妇女 争取和平 和 自由 联盟
+- expected: Women's International League for Peace and Freedom
+- got: International League for the Rights and Freedom of Peoples
+
+- source: 伍兹  霍尔 研究 中心
+- expected: Woods Hole Research Center
+- got: <UNK> Center of the <UNK>
+
+- source: 世界 归正会 联谊会
+- expected: World Alliance of Reformed Churches
+- got: World Health Organization
+
+- source: 世界 治疗 机构 联合会
+- expected: World Federation of Therapeutic Communities
+- got: Mr <UNK> <UNK> World Federation of <UNK>
+
+- source: 世界 退伍军人 联合会
+- expected: World Veterans Federation
+- got: World <UNK> Fund for Nature
+
+- source: 被 驱逐 者  流离失所 者  被 流放 者  协会
+- expected: Association of Expelled DisplacedExiled Persons
+- got: <UNK> of Human Rights <UNK> displaced persons
+
+- source: 国际 教育性 拳击 协会
+- expected: Association internationale de boxe educative
+- got: International <UNK> and <UNK> <UNK> <UNK>
+
+- source: 实务性 部分
+- expected: a Substantive segments
+- got: <UNK> <UNK>
+
+- source: 大会 第    号 决议
+- expected: General Assembly resolution
+- got: General Assembly resolution <UNK> A I
+
+- source: 第一节
+- expected: E sect
+- got: Section I
+
+- source: 通过 理事会 向 大会 提出
+- expected: Submitted to the General Assembly through the Council
+- got: The General Assembly has to make up its
+
+- source: 又 见 理事会 第    号 决定
+- expected: See also Council decision
+- got: See decision <UNK>
+
+- source: 载 于 文件
+- expected: As contained in document EAdd
+- got: D is contained in document <UNK>
+
+- source: 和  及
+- expected: A and Corr and Add
+- got: The system and information and recommendations
+
+- source: 第六 十届 会议
+- expected: Sixtieth session
+- got: Sixtieth session
+
+- source: 
+- expected: Item  of the provisional agenda
+- got: <UNK>
+
+- source: 临时 议程    项目
+- expected: United Nations Relief and Works Agency for Palestine
+- got: Item <UNK> of the provisional agenda
+
+- source: 联合国 近东 巴勒斯坦 难民 救济 和 工程处
+- expected: Refugees in the Near East
+- got: Agenda item <UNK>
+
+- source: 联合国 巴勒斯坦 和解 委员会 的 报告
+- expected: Report of the United Nations Conciliation Commission for Palestine
+- got: Report of the United Nations International Atomic Energy Agency
+
+- source: 秘书长 的 说明
+- expected: Note by the SecretaryGeneral
+- got: Note by the SecretaryGeneral
+
+- source: 联合国 巴勒斯坦 和解 委员会 第五十九 次 报告
+- expected: Commission for Palestine
+- got: Report of the United Nations International Public Administration
+
+- source: 决议 草案
+- expected: Draft resolution
+- got: Draft resolution
+
+- source: 安全 理事会
+- expected: The Security Council
+- got: The Security Council
+
+- source: 附件
+- expected: Annex
+- got: Annex
+
+- source: 安全 理事会
+- expected: The Security Council
+- got: The Security Council
+
+- source: 请 秘书长
+- expected: Requests the SecretaryGeneral to
+- got: Requests the SecretaryGeneral
+
+- source: 提高 选举 进程 的 公正 度 和 透明度
+- expected: e promoting the fairness and transparency of electoral processes
+- got: b Election of the officers and adoption of the
+
+- source: 决定 继续 处理 此案
+- expected: Decides to remain seized of the matter
+- got: Decides to remain seized of the matter
+
+- source: 议程 项目
+- expected: Sixtieth session
+- got: Agenda
+
+- source: 两年 期 拟议 方案 预算
+- expected: Fifth Committee
+- got: Proposed programme budget for the biennium <UNK>
+
+- source: 主席 在 非正式 协商 后 提出 的 决定 草案
+- expected: Proposed programme budget for the biennium
+- got: Draft resolution submitted by the Chairman following informal consultations
+
+- source: 军备 的 透明度
+- expected: Transparency in armaments
+- got: d Transparency in armaments
+
+- source: 决议 草案          的 所涉 方案 预算 问题
+- expected: Programme budget implications of draft resolution ACLRev
+- got: Draft resolution submitted by the President
+
+- source: 儿童 权利
+- expected: C Rights of the Child
+- got: Children's rights
+
+- source: 决议 草案          的 所涉 方案 预算 问题
+- expected: Programme budget implications of draft resolution ACLRev
+- got: Draft resolution submitted by the President
+
+- source: 决议 草案          的 所涉 方案 预算 问题
+- expected: Programme budget implications of draft resolution ACLRev
+- got: Draft resolution submitted by the President
+
+- source: 缅甸 的 人权 状况
+- expected: E Situation of human rights in Myanmar
+- got: Situation of human rights in Myanmar
+
+- source: 决议 草案          的 所涉 方案 预算 问题
+- expected: Programme budget implications of draft resolution ACL
+- got: Draft resolution submitted by the President
+
+- source: 国际 移徙 和 发展
+- expected: H International migration and development
+- got: c International migration and development
+
+- source: 决议 草案          的 所涉 方案 预算 问题
+- expected: Programme budget implications of draft resolution ACLRev
+- got: Draft resolution submitted by the President
+
+- source: 决议 草案      的 所涉 方案 预算 问题
+- expected: Programme budget implications of draft resolution AL
+- got: Draft resolution submitted by the President
+
+- source: 
+- expected: AAdd
+- got: <UNK>
+
+- source: 
+- expected: AAdd
+- got: <UNK>
+
+- source: 
+- expected: AAdd
+- got: <UNK>
+
+- source: 
+- expected: AAdd
+- got: <UNK>
+
+- source: 
+- expected: AAdd
+- got: <UNK>
+
+Bleu Score = 22.739216530048708

@@ -1,0 +1,29 @@
+
+基于谷歌翻译的关联词抽取：
+google_translation.py
+
+调用google翻译的接口，并将结果数据返回
+
+结果：
+
+input:
+ execjs适合在有完整的js function代码的情况下使用。
+
+示例代码的场景是，爬取的邮箱地址是经过加密的，但能够在js代码里面找到解密的代码，就是下面的js_code，接下来需要把加密邮箱用解密代码解出真正的邮箱。
+
+通过执行js_code里的decryptString函数来解密邮箱地址，decryptCharcode函数会被decryptString函数调用，所以需要保
+
+
+output：
+
+The scenario of the sample code is encrypted, but can find the decrypted code in the JS code, is the following JS_CODE, next to solve the encrypted mailbox with the decrypted code to solve the real email.
+Decrypt the email address by performing the DecryptString function in js_code, the DecryptCharcode function is called by the DecryptString function, so you need to keep it.
+
+基于哈工大开源词林的关联词推荐：
+cilin_ex.txt
+
+通过句法分析的关联词推荐：
+syntactic_analysis.txt
+
+通过互联网开源信息（比如wiki）的关联词抽取：
+wiki_scrawler

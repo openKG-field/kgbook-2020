@@ -1,0 +1,6 @@
+bert_shell.py
+
+启动固定路径下已存的bert_server
+
+tf_test.py
+按照接口调用 bert_server
